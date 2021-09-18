@@ -3,78 +3,78 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-## Overview
+## 개요
 
 [English](/README/en/README.md) | [Tiếng Việt](/README/vi/README.md) | [Indonesia](/README/id/README.md) | [日本語](/README/ja/README.md) | [한국어](/README/ko/README.md)
 
-This repository contains Cardano Catalyst Community (C3) Eastern Townhall (ETH) updates and related documentation. C3ETH is helping to enable community members from a wide variety of countries and languages in the eastern timezones. A particular focus of the team is to localise Cardano Catalyst content and on-boarding to enable the widest participation possible.
+이 저장소에는 Cardano Catalyst Community (C3) Eastern Townhall (ETH)의 업데이트와 관련된 문서가 포함되어 있습니다. C3ETH 동부 시간대에 다양한 국가 및 언어 커뮤니티 구성원을 지원하고 있습니다. 팀의 중요한 초점은 Cardano Catalyst의 콘텐츠 및 온보딩을 지역화하고 가능한한 폭 넓은 참여를 가능하게 하는 것입니다.
 
-This repository contains C3ETH translations of Project Catalyst documentation, community-sourced documentation, and related proposals. The content is translated into the many languages of the eastern hemisphere, with a particular focus on East Asian languages.
+이 저장소에는 Project Catalyst 문서, 커뮤니티 소스의 문서 및 관련된 제안 C3ETH에 의한 번역이 포함되어 있습니다. 콘텐츠는 동반구의 많은 언어로 번역되어 있으며, 특히 동아시아 언어에 초점이 맞춰져 있습니다.
 
-[Project Catalyst](https://cardano.ideascale.com/) is the **beginning** of bringing on-chain governance to Cardano. It is a series of experiments that leverage the collective intelligence of the Catalyst Community to determine the future direction and development of the Cardano ecosystem. Through a series of innovation funds, the community sources ideas decides which to fund, and finances them. Sourcing the best ideas for building a global blockchain.
+[Project Catalyst](https://cardano.ideascale.com/)는 카르다노에 온체인 거버넌스를 도입하는 **시작**입니다. 카르다노 생태계의 미래 방향과 발전을 결정하기 위해 카탈리스트 커뮤니티의 집단 지성을 활용하는 일련의 실험입니다. 일련의 혁신을 위한 기금을 통해 커뮤니티는 어떤 아이디어에 자금을 조달할 것인지를 결정하고 제공합니다. 글로벌 블록체인 구축을 위한 최고의 아이디어를 조달할 것입니다.
 
-## Building with Docker
+## 도커를 이용한 빌드
 
-The website and documentation is compiled and developed using [Hugo](https://gohugo.io/) and the [Docsy Theme](https://www.docsy.dev/). To build the site requires [Node](https://nodejs.org/en/), [Npm](https://www.npmjs.com/), and [PostCSS](https://postcss.org/). Instead of having to locally install these tools, you can build the site using [Docker](https://docs.docker.com/get-started/overview/). This has the advantage of providing a uniform development environment.
+웹사이트와 문서는 [Hugo](https://gohugo.io/)와 [Docsy Theme](https://www.docsy.dev/)를 사용하여 컴파일 및 개발되고 있습니다. 사이트를 구축하려면 [Node](https://nodejs.org/en/), [Npm](https://www.npmjs.com/) 및 [PostCSS](https://postcss.org/)가 필요합니다. ). 이러한 도구를 로컬에 설치하는 대신 [Docker](https://docs.docker.com/get-started/overview/)를 사용하여 사이트를 구축할 수 있습니다. 균일한 개발 환경을 제공할 수 있다는 장점이 있습니다.
 
-- Docker: To install docker, please refer to the documentation at [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/).
+- 도커: 도커를 설치하려면 [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/) 문서를 참고하세요.
 
-- Once you've made your working copy (see below) of the site repo, from the repo root folder, running the hugo serve container with docker:
+- 사이트 리포지토리의 작업 복사본(아래 참조)을 만든 후 리포지토리 루트 폴더에서 도커로 휴고 서브 컨테이너를 실행합니다:
 
   ```
   $ make container-serve
   ```
 
-Then visit http://localhost:1313 to view the documentation site
+그런 다음 http://localhost:1313을 방문하여 설명서 사이트를 봅니다.
 
-## Building with a local development environment 
+## 로컬 개발 환경으로 구축 
 
 The Website is built using [Docsy](https://www.docsy.dev/) which is a [Hugo](https://gohugo.io/) theme for technical documentation sets, providing simple navigation, site structure, and more.
+이 웹사이트는 기술문서 세트의 [Hugo](https://gohugo.io/) 테마인 [Docsy](https://www.docsy.dev/)를 사용하여 구축되어 간단한 탐색, 사이트 구조 등을 제공합니다.
 
-### Prerequisites
+### 전제조건
 
-Building and running the site locally requires a recent `extended` version of [Hugo](https://gohugo.io). The following are basic prerequisites building this site:
+사이트를 로컬에서 구축하고 실행하려면 [Hugo](https://gohugo.io)의 'extended'버전이 필요합니다. 다음은 이 사이트를 구축하기 위한 기본 전제 조건입니다.
 
-- Install a recent release of the Hugo "extended" version (we recommend version 0.53 or later). If you install from the 
-  [release page](https://github.com/gohugoio/hugo/releases), make sure you download the `_extended` version 
-  which supports SCSS.
+- Hugo "확장" 버전의 최신 릴리스를 설치합니다(버전 0.53 이상 권장). 
+   [릴리스 페이지](https://github.com/gohugoio/hugo/releases)에서 설치하는 경우는 `_extended` 버전을 다운로드해야 합니다.
+   SCSS를 지원합니다.
 
-- Install `PostCSS` so that the site build can create the final CSS assets. You can install it locally by running 
-  the following commands from the root directory of your project:
+- 사이트 빌드에서 최종 CSS 자산을 생성할 수 있도록 'PostCSS'를 설치합니다. 프로젝트의 루트 디렉터리에서 다음 명령을 실행하여 로컬에 설치할 수 있습니다:
 
   ```
   sudo npm install -D --save autoprefixer
   sudo npm install -D --save postcss-cli
   ```
 
-- Once you've made your working copy (see below) of the site repo, from the repo root folder, run:
+- 사이트 repo의 작업 복사본(아래 참조)을 만든 후에는 repo 루트 폴더에서 다음을 실행합니다:
 
   ```
   hugo server
   ```
 
-## Cloning the Website
+## 웹사이트 복사
 
 ```bash
 $ git clone --recurse-submodules --depth 1 https://github.com/c3eth/ce3th.github.io
 $ cd c3eth.github.io
 ```
 
-The site is build on the [Docsy theme](https://www.docsy.dev/) as a submodule. To update the submodule run:
+이 사이트는 하위 모듈로서 [Docsy 테마](https://www.docsy.dev/)에 기초하여 구축되어 있습니다. 하위 모듈을 업데이트하려면 다음을 실행하세요:
 
 ```bash
 $ git submodule update --recursive
 $ git pull --recurse-submodules
 ```
-## Edit Website Documents
+## 웹사이트 문서를 편집하기
 
-The documents are in the ```content/{en,vn,in,jp,ko}``` directories, select the desired section to edit or add, for content organization please refer to: https://gohugo.io/content-management/organization/.
+문서는 ```content/{en,vn,in,jp,ko}``` 디렉토리에 있습니다. 편집이나 추가할 섹션을 선택하세요. 콘텐츠 구성에 대해서는 https://gohugo.io/content-management/organization/를 참조하세요. 
 
-## Change Log
+## 로그 변경
 
-See [CHANGELOG.md](CHANGELOG.md) for notable changes and versions.
+주목해야할 변경 및 버전에 대해서는 [CHANGELOG.md](CHANGELOG.md)를 참고로 하세요.
 
-## Acknowledgements
+## 감사
 
 * [Project Catalyst](https://cardano.ideascale.com/)
 * [Cardano Foundation](https://cardanofoundation.org/)
@@ -83,24 +83,23 @@ See [CHANGELOG.md](CHANGELOG.md) for notable changes and versions.
 * [Docsy](https://www.docsy.dev/)
 
 
-## Contributing ![GitHub](https://img.shields.io/github/contributors/c3eth/c3eth.github.io)
+## 공헌하는 방법 ![GitHub](https://img.shields.io/github/contributors/c3eth/c3eth.github.io)
 
-Please read [CONTRIBUTING.md](https://github.com/c3eth/c3eth.github.io/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+행동규칙과 풀요청을 제출하는 절차에 대해서 자세한 내용은 [CONTRIBUTING.md](https://github.com/c3eth/c3eth.github.io/blob/main/CONTRIBUTING.md)를 참조하세요.
 
-See also the list of [contributors](https://github.com/c3eth/c3eth.github.io/graphs/contributors) who participated in this project.
+이 프로젝트에 참여한 [공헌자](https://github.com/c3eth/c3eth.github.io/graphs/contributors) 목록도 참조하세요.
 
-Thanks goes to these wonderful contributors (see [emoji key](https://allcontributors.org/docs/en/emoji-key)):
+이러한 훌륭한 공헌자들에게 감사드립니다([그림문자](https://allcontributors.org/docs/en/emoji-key)를 참조):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+이 프로젝트는 [모든 공헌자](https://github.com/all-contributors/all-contributors)의 사양을 따릅니다. 어떤 종류의 공헌도 환영합니다!
 
-## License ![GitHub](https://img.shields.io/github/license/c3eth/c3eth.github.io)
+## 라이센스 ![GitHub](https://img.shields.io/github/license/c3eth/c3eth.github.io)
 
-The published source code in the repository `c3eth/c3eth.github.io` is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/c3eth/c3eth.github.io/main/LICENSE.md) file for details.
+저장소`c3eth / c3eth.github.io`에서 공개된 소스 코드는 Apache License 2.0하에 라이센스되어 있습니다. 자세한 내용은 [LICENSE (https://github.com/c3eth/c3eth.github.io/main/LICENSE.md) 파일을 참조하세요.
 
-The published content in the repository `c3eth/c3eth.github.io` is licensed under the [Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) License v4.0.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+저장소`c3eth / c3eth.github.io`에 공개되어 있는 내용은 [Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) License v4.0] (https://creativecommons.org/licenses/by -nc-sa / 4.0 /)하에 라이센스되어 있습니다.
 
-You are free to Share (copy and redistribute) the material in any medium or format
-adapt, remix, transform, and build upon the material. You may not use the material for commercial purposes.  If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No warranties are given. The license may not give you all of the permissions necessary for your intended use.
+소재를 임의의 매체나 형식으로 자유롭게 공유(복사, 재배포) 할 수 있고, 본 제품의 적응, 리믹스, 변환 및 구축을 할 수 있습니다. 아 자료를 영리 목적으로 사용할 수는 없습니다. 본 제품을 리믹스 변환 구축하는 경우는 원본과 같은 라이선스하에 배포해야 합니다. 보증은 없습니다. 라이센스는 의도된 사용에 필요한 모든 권한을 부여하지는 않습니다.
