@@ -1,0 +1,1327 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tòa thị chính Catalyst Eastern – Docs</title><link>/vi/docs/</link><description>Recent content in Docs on Tòa thị chính Catalyst Eastern</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/vi/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Thử thách dự án Catalyst và hướng dẫn viết dự án</title><link>/vi/docs/catalyst/project-catalyst-challenge-and-proposal-guide/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/docs/catalyst/project-catalyst-challenge-and-proposal-guide/</guid><description>
+&lt;p>Dự án Catalyst đang được tiến hành và chúng tôi nhận thấy số lượng tham gia một cách đáng kinh ngạc từ nhiều cá nhân. Đây là một quá trình hợp tác để tạo ra dự án đổi mới cộng đồng trên toàn thế giới. Những phát biểu vấn đề, giải pháp, kinh nghiệm liên quan, và số quỹ được yêu cầu sẽ được trình bày trong ứng dụng bỏ phiếu. Điều này sẽ cho phép mọi người tìm hiểu về dự án trước khi bỏ phiếu.&lt;/p>
+&lt;p>Những kế hoạch dự án và những tệp đính kèm có thể được xem trên nền tảng đổi mới của chúng tôi, được chủ trì bởi Ideascale, để người bỏ phiếu có thể biết thêm nhiều thông tin chi tiết. Điều này có nghĩa là chúng tôi mong muốn mọi người đều cảm thấy tự tin khi đóng góp vào cuộc thảo luận.&lt;/p>
+&lt;p>Chất lượng của các dự án sẽ phụ thuộc vào khả năng của cộng đồng trong việc tạo ra và tương tác với những ý tưởng mới. Chính vì vậy, chúng tôi muốn chia sẻ hướng dẫn nhanh để viết được một dự án thành công:&lt;/p>
+&lt;h3 id="đề-xuất-một-tiêu-đề-tối-đa-35-kí-tự">Đề xuất một tiêu đề (tối đa 35 kí tự)&lt;/h3>
+&lt;p>Tên dự án nên thể hiện được sự đổi mới mà bạn đang cố gắng đạt được đồng thời thu hút được sự chú ý từ mọi người. Nhưng chúng tôi muốn tránh những lời quảng cáo quá bóng bẩy. Chỉ cần cho người xem biết được dự án sẽ làm gì và đối tượng của dự án rõ ràng nhất có thể. Hãy làm cho nó đơn giản và đầy đủ thông tin và dễ nhớ với người đọc.&lt;/p>
+&lt;p>&lt;strong>Tiêu đề ví dụ:&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Mạng Vlog của người tạo bể đào&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="cách-viết-một-phát-biểu-vấn-đề-tối-đa-140-kí-tự">Cách viết một phát biểu vấn đề (tối đa 140 kí tự)&lt;/h3>
+&lt;h4 id="nêu-ra-vấn-đề-cho-thử-thách">Nêu ra vấn đề cho thử thách&lt;/h4>
+&lt;p>Mỗi một quỹ sẽ có những thách thức riêng mà các đề xuất sẽ cố gắng giải quyết. Các thử thách ban đầu sẽ được đặt ra bởi nhóm dự án Catalyst và sau đó cộng đồng có thể tạo ra các thách thức để phát triển cộng đồng cho riêng mình. Việc dự án giải quyết thách thức một cách trực tiếp là rất quan trọng. Sau đây là một ví dụ về một thách thức và những dự án giải quyết thách thức đó.&lt;/p>
+&lt;p>&lt;strong>Thử thách&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Làm cách nào chúng ta có thể khuyến khích những nhà phát triển phần mềm và những nhà khởi nghiệp xây dựng những ứng dụng và kinh doanh trên nền tảng của Cardano trong vòng 6 tháng tới?&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Vấn đề đặt ra&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Những nhà đóng góp không muốn đối phó với tình trạng quan liêu\mất thời gian trong việc bảo đảm nguồn vốn. Làm cách nào để giúp những người đóng góp cho Cardano hợp lý hoá các dự án?&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Tôi đang cố gắng giải quyết vấn đề khởi động phong trào tài chính mở \ phi tập trung trên Cardano trước khi Plutus và Marlowe tấn công mainnet.&lt;/p>
+&lt;/blockquote>
+&lt;p>Trong cả hai ví dụ này thì mối quan hệ giữa các vấn đề và các thách thức thì khá rõ ràng. Đây là những gì mà những người bỏ phiếu đang tìm kiếm. Tuy nhiên, mặc dù nội dung của các vấn đề đặt ra khá rõ ràng và hiệu quả, chúng vẫn có thể được cải thiện.&lt;/p>
+&lt;h4 id="đưa-ra-những-trình-bày-về-vấn-đề-tuyệt-vời-tối-đa-140-kí-tự">Đưa ra những trình bày về vấn đề tuyệt vời (tối đa 140 kí tự)&lt;/h4>
+&lt;p>Những trình bày về vấn đề xác định các vấn đề liên quan đến thách thức, và đề xuất giải pháp. Việc tập trung vào những vấn đề thông thường, vấn đề cấp bách, vấn đề tốn kém, và những vấn đề thường xuyên là rất quan trọng. Việc giải thích những vấn đề trong những quan điểm này là rất quan trọng đối với một dự án tốt cho nên nó nên là thứ đầu tiên được nhìn thấy bởi người bỏ phiếu. Một vấn đề được trình bày tốt cao gồm 4 thành phần: Kết quả mong muốn, những rào cản, chi phí của vấn đề, và những bằng chứng.&lt;/p>
+&lt;h4 id="cấu-trúc-của-một-phát-biểu-vấn-đề">Cấu trúc của một phát biểu vấn đề&lt;/h4>
+&lt;p>&lt;strong>Kết quả mong muốn:&lt;/strong> Điều này vẽ lên một bức tranh với những bối cảnh lý tưởng một khi giải pháp của bạn đã được chấp thuận.&lt;/p>
+&lt;p>**Vấn đề rào cản:**Giải thích ngắn gọn về vấn đề ngăn chặn những trường hợp này xảy ra.&lt;/p>
+&lt;p>&lt;strong>Chi phí của vấn đề:&lt;/strong> Tóm tắt cả cơ hội và những chi phí tài chính của vấn đề cho những bên liên quan chính. Điều này nhằm giúp cho người bỏ phiếu đánh giá được mức độ ảnh hưởng của vấn đề.&lt;/p>
+&lt;p>&lt;strong>Bằng chứng:&lt;/strong> Ủng hộ quan điểm của bạn trong một kế hoạch chi tiết. Sau đây là một ví dụ:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Thành phần tuyên bố&lt;/th>
+&lt;th>Mô tả&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>Kết quả mong muốn&lt;/em>&lt;/td>
+&lt;td>Chúng tôi muốn chuyển tiền cho người lao động sống ở Philippines một cách hợp lý.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;em>Vấn đề rào cản&lt;/em>&lt;/td>
+&lt;td>11% dân số Philippines mất tiền vào phí giao dịch.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;em>Chi phí của vấn đề&lt;/em>&lt;/td>
+&lt;td>Khoảng 1 tỷ Đô la được chi trả cho chi phí chuyển tiền hằng năm.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;em>Bằng chứng&lt;/em>&lt;/td>
+&lt;td>Những liên kết đến số liệu chứng minh vấn đề này.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Sau đây là một báo cáo vấn đề hoàn chỉnh được cô đọng từ những thông tin trên:&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Tiền chuyển đến người lao động ở Philippines nên có giá cả hợp lí. Tuy nhiên, 11% dân số đang mất 1 tỷ Đô cho chi phí chuyển tiền hằng năm. Đường link nghiên cứu [1], [2]&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="kết-luận">Kết luận&lt;/h4>
+&lt;ul>
+&lt;li>Vạch ra kết quả mong muốn đạt được và những rào cản của nó&lt;/li>
+&lt;li>Xác định được chi phí của vấn đề&lt;/li>
+&lt;li>Đưa ra bằng chứng cho những phát hiện của bạn&lt;/li>
+&lt;/ul>
+&lt;h3 id="giải-pháp-tối-đa-140-kí-tự">Giải pháp (Tối đa 140 kí tự)&lt;/h3>
+&lt;h4 id="cấu-trúc-cho-giải-pháp">Cấu trúc cho giải pháp&lt;/h4>
+&lt;p>Bạn chỉ có 140 kí tự để trình bày rất nhiều thông tin quan trọng. Khi mỗi kí tự được tính, việc bạn trình bày ngắn gọn một cách chính xác là rất quan trọng.&lt;/p>
+&lt;p>Điều này nghe có vẻ hiển nhiên, nhưng giải pháp của bạn phải dựa trên một vấn đề đã được biết đến. Nó phải thực sự giải quyết được vấn đề đã được nêu ra trong phần trình bày vấn đề. Một giải pháp tìm kiếm một vấn đề hiếm khi là một lựa chọn hấp dẫn vì nó kém hiệu quả hơn so với việc đáp ứng một nhu cầu riêng biệt. Cho nên hãy nhớ rằng: bắt đầu với việc giải quyết một vấn đề và say đó trình bày tầm nhìn vấn đề của bạn trong mục &amp;lsquo;Kế hoạch chi tiết&amp;rsquo;. 140 ký tự của bạn nên trình bày rõ vấn đề, giải quyết nó, và cung cấp một số thông tin chi tiết về việc giải pháp của bạn khác những giải pháp khác như thế nào.&lt;/p>
+&lt;p>&lt;em>Ví dụ về giải pháp&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Tạo một tạp chí kỹ thuật số do nhà điều hành bể đào duy trì trên blockchain để giới thiệu Cardano với các đối tượng mới bên ngoài người dùng hiện tại.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="kết-luận-1">Kết luận&lt;/h4>
+&lt;ul>
+&lt;li>Giải quyết vấn đề một cách trực tiếp để đảm bảo rằng giải pháp của bạn đạt được thách thức&lt;/li>
+&lt;li>Làm cho dự án của bạn nổi bật thông qua sự khác biệt&lt;/li>
+&lt;li>Tạo một giải pháp giải quyết vấn đề thay vì tìm kiếm một vấn đề&lt;/li>
+&lt;/ul>
+&lt;h3 id="những-kinh-nghiệm-liên-quan-tối-đa-140-kí-tự">Những kinh nghiệm liên quan (tối đa 140 kí tự)&lt;/h3>
+&lt;h4 id="tìm-kiếm-lợi-thế-của-bạn">Tìm kiếm lợi thế của bạn&lt;/h4>
+&lt;p>Nhận ra được &amp;ldquo;lợi thế cạnh tranh&amp;rdquo; của bạn và chắc chắn rằng bạn sử dụng nó. Chúng tôi có thể chia nhỏ những lợi thế cạnh tranh của bạn vào những phân loại khác nhau. Giải pháp của bạn nên bao gồm sự giải thích những lợi ích cạnh trạnh càng nhiều càng tốt. Luôn nhớ rằng mọi người sẽ bỏ phiếu cho bạn nếu họ cảm thấy dự án của bạn là một dự án chắc chắn. Nếu bạn có thể giải thích rõ ràng tại sao bạn khác biệt so với những dự án khác trên nền tảng blockchain, bạn rõ ràng sẽ có lợi thế cạnh tranh.&lt;/p>
+&lt;h4 id="nhà-đầu-tư">Nhà đầu tư&lt;/h4>
+&lt;p>Những người đang làm việc trên dự án của bạn có thể cho mượn những chuyên gia và kinh nghiệm của họ cho dự án.&lt;/p>
+&lt;p>&lt;em>Ví dụ:&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>John Doe hoàn thành bằng tiến sĩ của anh ấy với trọng tâm là khuyến khích các hệ thống cho quỹ của blockchain.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="kết-luận-2">Kết luận&lt;/h4>
+&lt;ul>
+&lt;li>Tìm điểm mạnh của bạn và chắc chắn rằng nó được nhiều người biết đến&lt;/li>
+&lt;li>Điều này có thể khác nhau với những loại dự án khác nhau&lt;/li>
+&lt;li>Nhớ rằng người xem dự án là những người khác trên nền tảng phát triển&lt;/li>
+&lt;/ul>
+&lt;h3 id="kế-hoạch-chi-tiết">Kế hoạch chi tiết&lt;/h3>
+&lt;h4 id="phân-biệt-qua-nội-dung">Phân biệt qua nội dung&lt;/h4>
+&lt;p>Bây giờ chúng ta đã có dàn ý cho vấn đề và đưa ra một giải pháp vững chắc, hãy nói về việc thực hiện nó. Những khó khăn khác nhau yêu cầu những giải pháp khác nhau. Chúng tôi đang tìm kiếm những ý tưởng dự án đa dạng từ những chiến dịch quảng cáo và nguồn giáo dục để phát triển, nâng cao cơ sở hạ tầng và phát triển kinh tế&lt;/p>
+&lt;p>Bạn cần xem kế hoạch của bạn như một lộ trình và phân tích các nhu cầu. Đầu tiên, tại sao giải pháp đó lại hiệu quả? Mặc dù bạn có thể là người đầu tiên xác định được vấn đề của mình, nhưng điều quan trọng là bạn phải giải thích tại sao giải pháp của bạn sẽ thành công nhất trong một lĩnh vực có nhiều lựa chọn.&lt;/p>
+&lt;h4 id="thị-trường">Thị Trường&lt;/h4>
+&lt;p>Thị trường bạn xác định chưa từng được tiếp cận hoặc ưu tiên trước đó. Thị trường nên được xác định có 20 phần trăm tăng trưởng mỗi năm.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Ví dụ:&lt;/em> Giải pháp phần cứng của chúng tôi hoạt động với blockchain proof-of-work (bằng chứng làm việc).&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="sản-phẩm">Sản phẩm&lt;/h4>
+&lt;p>Giải pháp của bạn hoạt động trên thị trường bằng một cách gây ảnh hưởng.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Ví dụ:&lt;/em> Việc bổ sung phần cứng này làm giảm mức tiêu thụ năng lượng của các máy khai thác xuống 20%.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="sáp-nhập">Sáp nhập&lt;/h4>
+&lt;p>Lộ trình của bạn để sáp nhập người dùng và nền tảng là rõ ràng và được suy nghĩ kỹ lưỡng.&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Ví dụ: * Truy cập vào thông tin mạng thúc đẩy sáp nhập người dùng mà không mất phí&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="sự-độc-quyền">Sự độc quyền&lt;/h4>
+&lt;p>Khi bạn phát triển trong lĩnh vực này, công ty của bạn thực sự trở nên mạnh mẽ hơn.&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Ví dụ: * Sử dụng giao thức Ouroboros cho phép hệ thống của chúng tôi trở nên an toàn hơn khi sự phi tập trung tăng lên.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="hãy-cho-chúng-tôi-biết-số-quỹ-bạn-cần">Hãy cho chúng tôi biết số quỹ bạn cần&lt;/h4>
+&lt;p>Những vấn đề phức tạp cần nguồn tài trợ đủ để được giải quyết. Điều này được hiểu bởi cộng đồng dự án Catalyst. Tuy nhiên, những người bỏ phiếu cho những dự án này nên biết được nguồn tài trợ sẽ được dùng như thế nào. Hãy đưa ra một kế hoạch chi tiết về cách bạn sử dụng nguồn tài trợ. Điều này có thể được làm bởi nhiều cách nhưng chắt lọc ngân sách của bạn thành một dãy các hạng mục là một cách rõ ràng để cho người bỏ phiếu biết bạn có cân nhắc cho việc số lượng lớn tiền tài trợ cho ý tưởng được dùng như thế nào.&lt;/p>
+&lt;p>Bạn cũng nên nhớ rằng ngân sách của bạn nên phù hợp với yêu cầu của dự án mà bạn thực hiện để đạt được mục tiêu. Nếu bạn muốn nhận nguồn tài trợ cho môt buổi họp mặt nhỏ thì khoảng vài trăm đô la là phù hợp. Nếu bạn đang quản lý sự phát triển của cơ sở hạ tầng thì bạn sẽ cần nhiều nguồn lực hơn nữa. Đảm bảo rằng tầm nhìn và số quỹ tài trợ thích hợp nên gắn liền với nhau.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Ví dụ:&lt;/em> Tạo ra một podcast tập trung vào nhà phát triển phần mềm sẽ mất khoảng 5,000 đô cho 6 tháng đầu tiên.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="thực-hiện">Thực hiện&lt;/h4>
+&lt;p>Khi xây dựng dự án, bạn nên viết như thể bạn sẽ nhận được tài trợ. Nhưng việc làm cho người đọc dự án hiểu rằng bạn có khả năng thực hiện nó là rất quan trọng. Đây là nơi mà lộ trình của bạn bắt đầu. Lộ trình của bạn nên được chia nhỏ ra những cột mốc quan trọng bạn muốn đạt được khi bạn nhận được nguồn tài trợ. Điều này có thể được làm bằng nhiều cách khác nhau, nhưng một lộ trình tốt sẽ thể hiện chi tiết được mục tiêu trong 1 tháng, 3 tháng, và 6 tháng.&lt;/p>
+&lt;p>Trong lộ trình của bạn, nó cũng rất quan trọng để xác định được chỉ số đo lường hiệu quả công việc (KPIs). Đây là những mục tiêu bạn nhắm tới thể hiện được bạn đã thành công. Sau đây là một vài ví dụ cho KPIs:&lt;/p>
+&lt;ul>
+&lt;li>Yêu cầu của người dùng&lt;/li>
+&lt;li>Khả năng xây dựng sản phẩm&lt;/li>
+&lt;li>Đạt được tiêu chuẩn của hiệu suất&lt;/li>
+&lt;li>Độ ổn định của hệ thống đạt được trong khoảng thời gian x&lt;/li>
+&lt;/ul>
+&lt;p>Việc quan trọng cần nhớ về KPIs đó là nên có con số cụ thể đi kèm với nó. Đạt được 15 người dùng đầu tiên là một mục tiêu có thể đạt được. Đạt được &amp;ldquo;rất nhiều&amp;rdquo; người dùng thì khá là mơ hồ và rất khó để mọi người có thể quyết định. Hãy nhớ rằng, bạn đang trình bày những ý tưởng này cho cộng đồng, ý định của bạn càng rõ ràng và bạn càng xác minh được bạn đã đạt được mục tiêu của mình, thì bạn càng có nhiều khả năng được mọi người xem là một vụ cá cược chắc thắng.&lt;/p>
+&lt;h4 id="sở-hữu-trí-tuệ">Sở hữu trí tuệ&lt;/h4>
+&lt;p>Hãy chia sẻ với người xem những chính sách sở hữu trí tuệ của bạn (Bằng sáng chế, nhãn hiệu, bản quyền, giấy phép, v. v.) để họ có thể đánh giá xem nó có phù hợp với quỹ hay không.&lt;/p>
+&lt;h4 id="định-nghĩa-thành-công">Định nghĩa thành công&lt;/h4>
+&lt;p>Thành công sẽ trông như thế nào đối với dự án đặc thù này? Mặc dù nó có thể không hoàn thành hoàn toàn sau một vòng tài trợ, nhưng dự án của bạn nên cho chúng tôi biết nó sẽ được kết thúc như thế nào. Điều này, giống như KPIs nên là một con số dễ hiểu mà ai cũng có thể xác minh được.&lt;/p>
+&lt;h4 id="kết-luận-3">Kết luận&lt;/h4>
+&lt;ul>
+&lt;li>Ngân sách và lộ trình của dự án nên phù hợp với nhu cầu của dự án.&lt;/li>
+&lt;li>Thiết lập chỉ số đo lường hiệu quả công việc mà bạn có thể đạt được để thể hiện được quá trình mà bạn đang hướng tới mục đích.&lt;/li>
+&lt;li>Thiết lập quyền sở hữu trí tuệ để mọi người biết được ai sở hữu nó.&lt;/li>
+&lt;li>Định nghĩa thành công cho dự án của bạn.&lt;/li>
+&lt;/ul>
+&lt;h3 id="tệp-đính-kèmđường-kiên-kết">Tệp đính kèm/đường kiên kết&lt;/h3>
+&lt;p>Việc bạn có thể chia sẻ thêm những thông tin cần thiết là rất quan trọng. Đó là lý do vì sao PDFs, hình ảnh và những đường dẫn URLs thêm có thể được gửi qua Ideascale nơi ai cũng có thể nhìn thấy và truy cập.&lt;/p>
+&lt;h3 id="phản-hồi">Phản hồi&lt;/h3>
+&lt;h4 id="sự-hỗ-trợ-từ-cộng-đồng">Sự hỗ trợ từ cộng đồng&lt;/h4>
+&lt;p>Để làm cho dự án của từng cá nhân trở nên mạnh mẽ nhất có thể, chúng tôi khuyến khích mọi người dùng nền tảng tiên tiến để thảo luận từng ý tưởng. Trên thực tế, chúng tôi đã tạo ra các hướng dẫn dành cho người đánh giá để giúp bạn định hướng cho bài đánh giá của mình. Để có được những cuộc hội thoại hiệu quả và nhiều thông tin, chúng tôi khuyến khích mọi người tập trung phản hồi trên những phương diện sau đây:&lt;/p>
+&lt;ul>
+&lt;li>Khả năng đánh giá: * Những chi tiết nào còn thiếu trong dự án mà giúp cho người đánh giá đánh giá chính xác dự án?&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Sự ảnh hưởng:&lt;/em> Làm cách nào mà dự án có thể giải quyết tốt hơn thách thức này? Làm cách nào mà chúng ta khuyến khích được mọi người xây dựng dApps trên Cardano trong vòng 6 tháng tới?&lt;/p>
+&lt;ul>
+&lt;li>Tính khả thi: * Những cách nào để chỉnh sửa ngân sách, kế hoạch và phạm vi của dự án để làm cho nó dễ đạt được hơn.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Ví dụ&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Nếu sáng kiến quảng bá của bạn cung cấp chính xác số lượng người dùng mà nó đang cố gắng đưa vào làm KPI thì việc theo dõi sự thành công của nó sẽ dễ dàng hơn nhiều.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="kết-luận-4">Kết luận*&lt;/h4>
+&lt;ul>
+&lt;li>Đưa ra những phản hồi tốt để làm cho những dự án khác đáng tin cậy hơn&lt;/li>
+&lt;li>Kết hợp những phản hồi có ích cho dự án của mình&lt;/li>
+&lt;li>Tham gia trực tiếp trong quá trình cải tiến để đảm bảo rằng nó vẫn tiếp tục phát triển&lt;/li>
+&lt;/ul>
+&lt;h3 id="làm-cách-nào-để-viết-một-dự-án-lựa-chọn-của-cộng-đồng">Làm cách nào để viết một dự án lựa chọn của cộng đồng&lt;/h3>
+&lt;h4 id="giải-phóng-cho-cộng-đồng">Giải phóng cho cộng đồng&lt;/h4>
+&lt;p>Mục đích để dự án cộng đồng Catalyst tự viết những thách thức của mình là để giải phóng được nền tảng từ nhóm dự án Catalyst. Đến cuối cùng thì, Cộng đồng Cardano sẽ kiểm soát sự phát triển và quá trình cộng tác từ khi bắt đầu cho đến lúc triển khai. Với suy nghĩ đó trong đầu, việc chúng ta hiểu được sự ảnh hưởng của những thách thức đó là rất quan trọng.&lt;/p>
+&lt;h4 id="tập-trung-vào-sự-phát-triển">Tập trung vào sự phát triển&lt;/h4>
+&lt;p>Thử thách là một câu hỏi giúp cho cộng đồng tập trung vào sự sáng tạo trong việc phát triển hệ sinh thái Cardano. Đương nhiên, &amp;lsquo;Phát triển&amp;rsquo; có nghĩa khác nhau với những người khác nhau. Chìa khoá để viết được một thử thách có sức ảnh hưởng đó là sự cân bằng. Nó phải đủ rộng để được giải quyết trong nhiều cách khác nhau, nhưng đủ cụ thể để nâng cao giá trị của Cardano cho mọi người.&lt;/p>
+&lt;h4 id="ví-dụ-cho-câu-hỏi-thách-thức">Ví dụ cho câu hỏi thách thức&lt;/h4>
+&lt;p>Dưới đây là một vài ví dụ cho câu hỏi thách thức:&lt;/p>
+&lt;p>&lt;em>Quá cụ thể&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Làm cách nào mà những bể đào ở phía Nam Châu Âu có thể thu hút nhiều người đại diện hơn trong 2 tháng tới?&lt;/p>
+&lt;/blockquote>
+&lt;p>Câu hỏi thử thách này chỉ giải quyết được những bể đào ở phía Nam Châu Âu. Cardano là một hệ sinh thái toàn cầu mà cho phép mọi người tham gia bằng rất nhiều cách khác nhau. Câu hỏi thử thách nên giúp đỡ tất cả mọi người.&lt;/p>
+&lt;p>&lt;em>Quá rộng&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Làm cách nào để Cardano trở nên có ích hơn?&lt;/p>
+&lt;/blockquote>
+&lt;p>Đương nhiên, chúng ta mong muốn Cardano sẽ có ích hơn nhưng Thách thức này không cho người tham dự một thước đo để họ có thể kích thích sự sáng tạo của họ. Các ràng buộc là cần thiết để giúp cộng đồng giải quyết các nhu cầu trực tiếp của hệ sinh thái.&lt;/p>
+&lt;p>&lt;em>Vừa đủ&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Làm thế nào chúng tôi có thể khuyến khích các doanh nhân phát triển doanh nghiệp trên Cardano trong sáu tháng tới?&lt;/p>
+&lt;/blockquote>
+&lt;p>Thách thức này có khung thời gian và đưa ra một nhóm cộng đồng, điều này rất là quan trọng đối với toàn thể cộng đồng Cardano. Hơn nữa, nó có thể được giải quyết theo nhiều cách khác nhau thông qua các đóng góp cả về kỹ thuật và phi kỹ thuật. Tuy nhiên, viết câu hỏi Thử thách chỉ là một phần quan trọng của dự án Catalyst. Giải quyết những thách thức đó một cách rõ ràng và ngắn gọn là rất cần thiết để xác định các ý tưởng có tác động nhiều nhất cho dự án Catalyst.&lt;/p>
+&lt;h3 id="gắn-thẻ">Gắn Thẻ&lt;/h3>
+&lt;p>Vui lòng thêm thẻ vào đề xuất của bạn nếu bạn đang tìm kiếm người cộng tác/lời khuyên /người triển khai.&lt;/p></description></item><item><title>Catalyst: Phát triển Đông Á, Phát triển Cardano</title><link>/vi/catalyst/fund6/challenge-setting-proposals/grow-east-asia-grow-cardano/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenge-setting-proposals/grow-east-asia-grow-cardano/</guid><description>
+&lt;p>&lt;strong>Thử thách:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/fund7-challenge-setting/campaign-brief/">Thiết lập thử thách của Quỹ 7&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/Grow-Southeast-Asia-Grow-Cardano/367250-48088">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Số tiền yêu cầu (USD):&lt;/strong> 250.000 USD&lt;/p>
+&lt;h2 id="câu-hỏi-thách-thức">Câu hỏi thách thức:&lt;/h2>
+&lt;p>Làm thế nào để chúng ta phát triển hệ sinh thái Cardano ở khu vực Đông Á theo một cách toàn diện và mang tính giúp đỡ? Giống như cách chúng tôi làm ở Châu Phi, tập trung vào các sáng kiến!&lt;/p>
+&lt;h2 id="tại-sao-nó-lại-quan-trọng">Tại sao nó lại quan trọng?&lt;/h2>
+&lt;p>Cộng đồng Cardano được phát triển nhiều ở Bắc Mỹ và Châu Âu. Sự phát triển ở những nơi khác đòi hỏi sự hỗ trợ và sự chủ động của chúng tôi với tư cách là một cộng đồng.&lt;/p>
+&lt;h2 id="thành-công-trông-như-thế-nào">Thành công trông như thế nào?&lt;/h2>
+&lt;p>Nhiều người trên khắp châu Á và có kết nối với châu Á, tập hợp lại với nhau và thành lập các nhóm để phát triển hệ sinh thái này.&lt;/p>
+&lt;h2 id="các-chỉ-số-chính-để-đo-lường">Các chỉ số chính để đo lường&lt;/h2>
+&lt;p>Khi kết thúc thử thách này, chúng tôi sẽ tự hỏi mình một số câu hỏi về chất lượng của việc tham gia:&lt;/p>
+&lt;ul>
+&lt;li>Số lượng các dự án đến từ những người tham gia ở Đông Á trong Dự án Catalyst&lt;/li>
+&lt;li>Số lượng và chất lượng của các dự án được tài trợ có nguồn gốc từ các nhóm ở Đông Á.&lt;/li>
+&lt;li>Những tác động quan sát được của các dự án được tài trợ (có đáp ứng KPI đặt ra).&lt;/li>
+&lt;li>Chúng tôi có gia tăng được sự tham gia của cộng đồng Cardano và đội Catalyst với cư dân ở Đông Á không?&lt;/li>
+&lt;li>Có sự gia tăng trong Ví hoạt động hàng ngày / hàng tháng (DAW / MAW) như một thước đo đại diện cho động lực và mức độ tương tác không&lt;/li>
+&lt;li>Chúng tôi có tăng số lượng Stake Pools và Stake Pool Operator đặt tại Đông Á không?&lt;/li>
+&lt;/ul>
+&lt;p>Chúng tôi cũng sẽ hỏi một số câu hỏi cụ thể về chất lượng của các dự án.&lt;/p>
+&lt;ul>
+&lt;li>Có phản hồi tốt về tiến độ dự án được tài trợ, thất bại hay thành công, có giúp chúng tôi hiểu các khía cạnh khác của việc triển khai các giải pháp Cardano trên khắp khu vực Đông Á hay không không?&lt;/li>
+&lt;li>Tính mới và tính phù hợp của các giải pháp là gì?&lt;/li>
+&lt;li>Chúng ta có đang đi đúng hướng để cải thiện cuộc sống của những người sử dụng Cardano ở Đông Á không?&lt;/li>
+&lt;li>Đánh giá tác động xã hội và môi trường có được sử dụng để đo lường hiệu suất của đề xuất không?&lt;/li>
+&lt;li>Tính bền vững của các đề xuất ngoài phạm vi của Catalyst là gì?&lt;/li>
+&lt;/ul>
+&lt;h2 id="tóm-tắt-thử-thách">Tóm tắt thử thách&lt;/h2>
+&lt;p>Cũng như ở Châu Phi, việc nâng cao mức độ nhận thức của người Đông Á về blockchain và mạng lưới Cardano nên là ưu tiên của cộng đồng Catalyst. Trong thử thách này, chúng tôi cung cấp tài trợ cho những người đã tìm hiểu về Cardano để tận dụng sự hỗ trợ của cộng đồng và xây dựng hoặc sử dụng mạng lưới Cardano.&lt;/p>
+&lt;p>Bản chất của các dự án cho thách thức này là một kết thúc mở. Yêu cầu duy nhất của họ là có nguồn gốc hoặc tập trung vào khu vực Đông Á và bao gồm các thành viên của nhóm Đông Á hoặc tập trung vào những người tham gia ở Đông Á.&lt;/p>
+&lt;p>Ví dụ, phần lớn Stake Pools cư trú ở Bắc Mỹ và Châu Âu. Mạng lưới Cardano sẽ linh hoạt hơn khi Stake Pools được phân bổ đồng đều trên toàn cầu. Cộng đồng Catalyst cần đẩy mạnh và cùng quyết tâm biến điều đó thành hiện thực.&lt;/p>
+&lt;p>Cardano bắt đầu phát triển từ Đông Á (Nhật Bản và Hồng Kông), và Emurgo tập trung vào Đông Á. Hãy xây dựng dựa trên những điều đó.&lt;/p>
+&lt;h2 id="đây-là-gì">Đây là gì:&lt;/h2>
+&lt;p>Lời kêu gọi hành động; Kích hoạt khả năng nhận biết của cộng đồng Cardano, trao thưởng cho những cơ hội để biến thế giới trở nên tốt đẹp hơn. Đông Á là mảnh đất màu mỡ cho việc áp dụng Cardano. Tỷ suất sinh lợi trên ý định (ROI) có khả năng sẽ rất cao vì các dự án ở các nền kinh tế trẻ và đang phát triển gặp ít sự cản trở về kinh tế hơn.&lt;/p>
+&lt;p>Hướng đến những khu vực khác nhau trên thế giới một cách trực tiếp và có chủ đích thông qua những thách thức và tài trợ có thể giúp tiếp cận cộng đồng một cách dễ dàng hơn. Nó khiến chúng ta kiên cường hơn. Giúp chúng ta tìm hiểu và thấu hiểu nhu cầu của các cộng đồng đã tạo nên hệ sinh thái chung này.&lt;/p>
+&lt;p>Tầm nhìn lớn hơn đó là những dư án cần những phiếu bầu để nó có thể trở thành một thành tựu. Khi thử thách thành công, người hưởng lợi là cả cộng đồng Cardano. Đây là một lời kêu gọi mọi người hãy gạt bỏ những định kiến, mở rộng tầm mắt, trái tim và khối óc đến những người tốt, những người thiếu thốn nhiều lợi ích hơn chúng ta từ khi sinh ra - cho phép những người khác có hoàn cảnh đặc biệt hơn vươn lên và thành công.&lt;/p>
+&lt;h2 id="nhóm-thử-thách">Nhóm thử thách&lt;/h2>
+&lt;p>Đề xuất này dự định sẽ bao gồm một nhóm thử thách. Thật không may, người đề xuất không có thời gian để thành lập đầy đủ một nhóm thử thách trước khi đề xuất được xem xét. Nếu có thể, chúng tôi dự định sẽ giúp thành lập nhóm đó trước khi bắt đầu bỏ phiếu.&lt;/p>
+&lt;p>Những cá nhân sau đã đề nghị được tham gia nhóm thử thách.&lt;/p>
+&lt;ul>
+&lt;li>Felix Weber (&lt;a href="https://cardano.ideascale.com/a/pmd/3077912-48088?">@felixweber&lt;/a>)&lt;/li>
+&lt;li>Robert O&amp;rsquo;Brien (&lt;a href="https://cardano.ideascale.com/a/pmd/3056857-48088?">@wolstaeb&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;p>Vai trò của các Nhóm thử thách là quản lý các thử thách trong Catalyst - trình bày thử thách, theo dõi tiến trình và báo cáo lại cho cộng đồng quan điểm của họ về việc các thử thách đã được giải quyết hay chưa.&lt;/p>
+&lt;p>Nếu bạn quan tâm đến việc trở thành một phần của nhóm, vui lòng cho chúng tôi biết trong phần bình luận.&lt;/p>
+&lt;h2 id="lời-cám-ơn">Lời cám ơn&lt;/h2>
+&lt;p>Dự án này là một bản sao của &lt;a href="https://cardano.ideascale.com/a/dtd/Grow-Africa-Grow-Cardano/333079-48088">Grow Africa, Grow Cardano&lt;/a> do @grebel và @archangelbob đề xuất và hiện là một trong những &lt;a href="https://cardano.ideascale.com/a/campaign-home/26108">Catalyst Challenges&lt;/a> .&lt;/p></description></item><item><title>Catalyst: Phát triển Đông Á, Phát triển Cardano</title><link>/vi/catalyst/fund6/eth-proposals/grow-east-asia-grow-cardano/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/eth-proposals/grow-east-asia-grow-cardano/</guid><description>
+&lt;p>&lt;strong>Thử thách:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/fund7-challenge-setting/campaign-brief/">Thiết lập thử thách của Quỹ 7&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/Grow-Southeast-Asia-Grow-Cardano/367250-48088">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Số tiền yêu cầu (USD):&lt;/strong> 250.000 USD&lt;/p>
+&lt;h2 id="câu-hỏi-thách-thức">Câu hỏi thách thức:&lt;/h2>
+&lt;p>Làm thế nào để chúng ta phát triển hệ sinh thái Cardano ở khu vực Đông Á theo một cách toàn diện và mang tính giúp đỡ? Giống như cách chúng tôi làm ở Châu Phi, tập trung vào các sáng kiến!&lt;/p>
+&lt;h2 id="tại-sao-nó-lại-quan-trọng">Tại sao nó lại quan trọng?&lt;/h2>
+&lt;p>Cộng đồng Cardano được phát triển nhiều ở Bắc Mỹ và Châu Âu. Sự phát triển ở những nơi khác đòi hỏi sự hỗ trợ và sự chủ động của chúng tôi với tư cách là một cộng đồng.&lt;/p>
+&lt;h2 id="thành-công-trông-như-thế-nào">Thành công trông như thế nào?&lt;/h2>
+&lt;p>Nhiều người trên khắp châu Á và có kết nối với châu Á, tập hợp lại với nhau và thành lập các nhóm để phát triển hệ sinh thái này.&lt;/p>
+&lt;h2 id="các-chỉ-số-chính-để-đo-lường">Các chỉ số chính để đo lường&lt;/h2>
+&lt;p>Khi kết thúc thử thách này, chúng tôi sẽ tự hỏi mình một số câu hỏi về chất lượng của việc tham gia:&lt;/p>
+&lt;ul>
+&lt;li>Số lượng các dự án đến từ những người tham gia ở Đông Á trong Dự án Catalyst&lt;/li>
+&lt;li>Số lượng và chất lượng của các dự án được tài trợ có nguồn gốc từ các nhóm ở Đông Á.&lt;/li>
+&lt;li>Những tác động quan sát được của các dự án được tài trợ (có đáp ứng KPI đặt ra).&lt;/li>
+&lt;li>Chúng tôi có gia tăng được sự tham gia của cộng đồng Cardano và đội Catalyst với cư dân ở Đông Á không?&lt;/li>
+&lt;li>Có sự gia tăng trong Ví hoạt động hàng ngày / hàng tháng (DAW / MAW) như một thước đo đại diện cho động lực và mức độ tương tác không&lt;/li>
+&lt;li>Chúng tôi có tăng số lượng Stake Pools và Stake Pool Operator đặt tại Đông Á không?&lt;/li>
+&lt;/ul>
+&lt;p>Chúng tôi cũng sẽ hỏi một số câu hỏi cụ thể về chất lượng của các dự án.&lt;/p>
+&lt;ul>
+&lt;li>Có phản hồi tốt về tiến độ dự án được tài trợ, thất bại hay thành công, có giúp chúng tôi hiểu các khía cạnh khác của việc triển khai các giải pháp Cardano trên khắp khu vực Đông Á hay không không?&lt;/li>
+&lt;li>Tính mới và tính phù hợp của các giải pháp là gì?&lt;/li>
+&lt;li>Chúng ta có đang đi đúng hướng để cải thiện cuộc sống của những người sử dụng Cardano ở Đông Á không?&lt;/li>
+&lt;li>Đánh giá tác động xã hội và môi trường có được sử dụng để đo lường hiệu suất của đề xuất không?&lt;/li>
+&lt;li>Tính bền vững của các đề xuất ngoài phạm vi của Catalyst là gì?&lt;/li>
+&lt;/ul>
+&lt;h2 id="tóm-tắt-thử-thách">Tóm tắt thử thách&lt;/h2>
+&lt;p>Cũng như ở Châu Phi, việc nâng cao mức độ nhận thức của người Đông Á về blockchain và mạng lưới Cardano nên là ưu tiên của cộng đồng Catalyst. Trong thử thách này, chúng tôi cung cấp tài trợ cho những người đã tìm hiểu về Cardano để tận dụng sự hỗ trợ của cộng đồng và xây dựng hoặc sử dụng mạng lưới Cardano.&lt;/p>
+&lt;p>Bản chất của các dự án cho thách thức này là một kết thúc mở. Yêu cầu duy nhất của họ là có nguồn gốc hoặc tập trung vào khu vực Đông Á và bao gồm các thành viên của nhóm Đông Á hoặc tập trung vào những người tham gia ở Đông Á.&lt;/p>
+&lt;p>Ví dụ, phần lớn Stake Pools cư trú ở Bắc Mỹ và Châu Âu. Mạng lưới Cardano sẽ linh hoạt hơn khi Stake Pools được phân bổ đồng đều trên toàn cầu. Cộng đồng Catalyst cần đẩy mạnh và cùng quyết tâm biến điều đó thành hiện thực.&lt;/p>
+&lt;p>Cardano bắt đầu phát triển từ Đông Á (Nhật Bản và Hồng Kông), và Emurgo tập trung vào Đông Á. Hãy xây dựng dựa trên những điều đó.&lt;/p>
+&lt;h2 id="đây-là-gì">Đây là gì:&lt;/h2>
+&lt;p>Lời kêu gọi hành động; Kích hoạt khả năng nhận biết của cộng đồng Cardano, trao thưởng cho những cơ hội để biến thế giới trở nên tốt đẹp hơn. Đông Á là mảnh đất màu mỡ cho việc áp dụng Cardano. Tỷ suất sinh lợi trên ý định (ROI) có khả năng sẽ rất cao vì các dự án ở các nền kinh tế trẻ và đang phát triển gặp ít sự cản trở về kinh tế hơn.&lt;/p>
+&lt;p>Hướng đến những khu vực khác nhau trên thế giới một cách trực tiếp và có chủ đích thông qua những thách thức và tài trợ có thể giúp tiếp cận cộng đồng một cách dễ dàng hơn. Nó khiến chúng ta kiên cường hơn. Giúp chúng ta tìm hiểu và thấu hiểu nhu cầu của các cộng đồng đã tạo nên hệ sinh thái chung này.&lt;/p>
+&lt;p>Tầm nhìn lớn hơn đó là những dư án cần những phiếu bầu để nó có thể trở thành một thành tựu. Khi thử thách thành công, người hưởng lợi là cả cộng đồng Cardano. Đây là một lời kêu gọi mọi người hãy gạt bỏ những định kiến, mở rộng tầm mắt, trái tim và khối óc đến những người tốt, những người thiếu thốn nhiều lợi ích hơn chúng ta từ khi sinh ra - cho phép những người khác có hoàn cảnh đặc biệt hơn vươn lên và thành công.&lt;/p>
+&lt;h2 id="nhóm-thử-thách">Nhóm thử thách&lt;/h2>
+&lt;p>Đề xuất này dự định sẽ bao gồm một nhóm thử thách. Thật không may, người đề xuất không có thời gian để thành lập đầy đủ một nhóm thử thách trước khi đề xuất được xem xét. Nếu có thể, chúng tôi dự định sẽ giúp thành lập nhóm đó trước khi bắt đầu bỏ phiếu.&lt;/p>
+&lt;p>Những cá nhân sau đã đề nghị được tham gia nhóm thử thách.&lt;/p>
+&lt;ul>
+&lt;li>Felix Weber (&lt;a href="https://cardano.ideascale.com/a/pmd/3077912-48088?">@felixweber&lt;/a>)&lt;/li>
+&lt;li>Robert O&amp;rsquo;Brien (&lt;a href="https://cardano.ideascale.com/a/pmd/3056857-48088?">@wolstaeb&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;p>Vai trò của các Nhóm thử thách là quản lý các thử thách trong Catalyst - trình bày thử thách, theo dõi tiến trình và báo cáo lại cho cộng đồng quan điểm của họ về việc các thử thách đã được giải quyết hay chưa.&lt;/p>
+&lt;p>Nếu bạn quan tâm đến việc trở thành một phần của nhóm, vui lòng cho chúng tôi biết trong phần bình luận.&lt;/p>
+&lt;h2 id="lời-cám-ơn">Lời cám ơn&lt;/h2>
+&lt;p>Dự án này là một bản sao của &lt;a href="https://cardano.ideascale.com/a/dtd/Grow-Africa-Grow-Cardano/333079-48088">Grow Africa, Grow Cardano&lt;/a> do @grebel và @archangelbob đề xuất và hiện là một trong những &lt;a href="https://cardano.ideascale.com/a/campaign-home/26108">Catalyst Challenges&lt;/a> .&lt;/p></description></item><item><title>Catalyst: Grow Social &amp; Environmental Finance</title><link>/vi/catalyst/fund6/challenge-setting-proposals/grow-social-finance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenge-setting-proposals/grow-social-finance/</guid><description>
+&lt;p>&lt;strong>Challenge:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/fund7-challenge-setting/campaign-brief/">Fund 7 Challenge Setting&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/SoFi-Social-Finance/368902-48088">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Requested Amount (USD):&lt;/strong> $250,000&lt;/p>
+&lt;h2 id="challenge-question">Challenge question&lt;/h2>
+&lt;p>What solutions can we build on Cardano to finance social and environmental innovation?&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>To address the climate emergency and the associated economic challenges, we need to build resilient financial solutions for driving change.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Impact investors, NGOs, and grassroots communities make Cardano the default choice to help transparently deliver the greatest impact.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;p>At the end of this challenge, we will be asking ourselves some guiding questions about the quality of developed solutions:&lt;/p>
+&lt;ul>
+&lt;li>Are we on track to improve the lives of people using them?&lt;/li>
+&lt;li>How much financial capital is deployed to grassroots community efforts?&lt;/li>
+&lt;li>How many gaps are filled along the impact investing value chain?&lt;/li>
+&lt;li>Have we increased capital efficiency and lowered financing costs compared with current approaches?&lt;/li>
+&lt;li>Are the solutions using Cardano&amp;rsquo;s technical features to the fullest?&lt;/li>
+&lt;li>Do teams adopt high-assurance engineering practices to develop code we can trust?&lt;/li>
+&lt;li>How decentralised is the solution and where are the points of control?&lt;/li>
+&lt;/ul>
+&lt;p>At the moment there are very few usage metrics addressing Social &amp;amp; Environmental Finance (SoFi) scenarios. This challenge, therefore, will determine uptake by adopting some metrics from Decentralised Finance (DeFi) markets as a guide.&lt;/p>
+&lt;ul>
+&lt;li>Daily/Monthly Active Wallets (DAW/MAW) - Measure of momentum and engagement&lt;/li>
+&lt;li>Average Order Value - Measures who are using services, how much and how often.&lt;/li>
+&lt;li>Total Value Locked (TLV) - Measure of confidence in DeFi market protocols.&lt;/li>
+&lt;li>Take Rate (Rake) - Measure of efficiency&lt;/li>
+&lt;li>Gross Merchandise Volume (GMV) - Total value of services transacted.&lt;/li>
+&lt;/ul>
+&lt;p>We will also be asking some specific questions about the proposals.&lt;/p>
+&lt;ul>
+&lt;li>What is the sustainability of proposals beyond the scope of Catalyst?&lt;/li>
+&lt;li>Was social and environmental impact evaluation used to measure proposal performance?&lt;/li>
+&lt;/ul>
+&lt;h2 id="challenge-brief">Challenge brief&lt;/h2>
+&lt;p>This challenge is about the ways we can spark a fire under impact investing using the Cardano ecosystem.&lt;/p>
+&lt;p>Impact investments are made with the intention to generate positive, measurable social and environmental impact alongside financial returns. While a variety of projects push for the adoption of DeFi on Cardano, can we bring to market the potential of DeFi mechanisms as a vehicle for social good?&lt;/p>
+&lt;p>Delivering an outcome that has an impact is a lot harder than just delivering a financial Return-on-Investment, even a small one. Impact investing (according to the World Economic Forum) is hindered by:&lt;/p>
+&lt;ul>
+&lt;li>The lack and/or high cost of trustworthy data on the social or environmental results of investment, making credible accounting of impacts difficult.&lt;/li>
+&lt;li>Challenges around the “attribution” of impact – meaning the allocation of an impact-related claim to an investor risks “double-counting.”&lt;/li>
+&lt;li>Roadblocks in monetizing impacts – illiquid impact markets, uncertain returns, high transaction costs.&lt;/li>
+&lt;/ul>
+&lt;p>Propose market solutions, financial mechanisms, or means of measuring impact. Think about how these can be deployed at scale to affect positively millions of people. Think about how the results of your proposal can be embedded or reused in different market contexts, or integrated with existing providers.&lt;/p>
+&lt;p>Igniting impact investment on Cardano will provide capital to address the world’s most pressing challenges in sectors such as sustainable agriculture, renewable energy, conservation, microfinance, and affordable and accessible basic services including housing, healthcare, and education.&lt;/p>
+&lt;p>To achieve impact requires cooperation and collaboration, something Cardano can enable. Could the answer to better managing the world’s resources lie not in government or big investors but instead in technologies that empower peer-to-peer assistance. Community-based finance or data-driven crowdfunding for instance. How can we leverage the awesome power of the Cardano ecosystem to be that catalyst?&lt;/p></description></item><item><title>Catalyst: Hoạt động của phòng họp mặt phía Đông</title><link>/vi/catalyst/fund6/eth-proposals/eastern-townhall-team-operation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/eth-proposals/eastern-townhall-team-operation/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/MzemrlXpqnY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;strong>Thử thách:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/catalyst-value-onboarding/campaign-brief/">Thử thách gia nhập giá trị&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/Sustain-the-Eastern-Townhall/369124-48088">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Số tiền yêu cầu (USD):&lt;/strong> $ 10.000&lt;/p>
+&lt;h2 id="hoạch-định-vấn-đề">Hoạch định vấn đề&lt;/h2>
+&lt;p>Tham gia vào dự án Catalyst sẽ rất khó khăn khi bạn sống ở múi giờ phía đông và ngôn ngữ của bạn không phải là tiếng Anh.&lt;/p>
+&lt;h2 id="mô-tả-giải-pháp-của-bạn-cho-vấn-đề">Mô tả giải pháp của bạn cho vấn đề&lt;/h2>
+&lt;p>Eastern TownHall hỗ trợ các quốc gia phía đông bằng cách tổ chức các sự kiện và biên/phiên dịch nội dung. Mục đích nhằm tăng 20% số người tham gia cho mỗi quỹ.&lt;/p>
+&lt;h2 id="kinh-nghiệm-liên-quan">Kinh nghiệm liên quan&lt;/h2>
+&lt;p>Đồng sáng lập Catalyst Swarm, Eastern Townhall, Catalyst School. Kỹ sư CNTT &amp;amp; Kỹ thuật phần mềm. Các nhà giáo dục và kế toán ở Đông Á và Nhật Bản.&lt;/p>
+&lt;h2 id="kế-hoạch-chi-tiết">Kế hoạch chi tiết&lt;/h2>
+&lt;p>Phòng họp mặt phía Đông là một sáng kiến do cộng đồng thúc đẩy phát triển Cardano ở khu vực Đông bán cầu và trên toàn châu Á. Chúng tôi muốn xây dựng một nền kinh tế và xã hội toàn cầu. Trọng tâm của chúng tôi là biến những việc không thể thành có thể. Địa điểm, thời gian và không gian:&lt;/p>
+&lt;ul>
+&lt;li>Chúng tôi có thể đóng góp kiến thức, chia sẻ thông tin, kết nối và hỗ trợ lẫn nhau.&lt;/li>
+&lt;li>Ngôn ngữ và văn hóa không còn là rào cản khi tham gia dự án.&lt;/li>
+&lt;li>Chúng tôi học cách áp dụng công nghệ và cộng đồng để giải quyết các nhu cầu của địa phương.&lt;/li>
+&lt;li>Hướng dẫn cách sử dụng Cardano để tăng cường phúc lợi kinh tế.&lt;/li>
+&lt;li>Làm phong phú thêm hệ sinh thái của Cardano bằng những câu chuyện, năng lượng và quan điểm của chúng tôi.&lt;/li>
+&lt;/ul>
+&lt;p>Đông bán cầu, Đông Nam Á là khu vực giao thoa về văn hóa và ngôn ngữ của nhiều quốc gia. Với dân số hơn 1,6 tỷ, mục tiêu của chúng tôi là phát triển Cardano.&lt;/p>
+&lt;h3 id="các-vấn-đề-hiện-tại-và-hạn-chế">Các vấn đề hiện tại và hạn chế&lt;/h3>
+&lt;p>Phòng họp mặt phía Đông là kết quả của các cá nhân và nhóm làm việc cùng nhau. Mỗi cá nhân mang đến một chất lượng riêng biệt. Chúng tôi tương tác bên trong và bên ngoài Cộng đồng Cardano, tập trung vào việc liên kết các cá nhân và dự án với Project Catalyst. Nhưng việc này tốn khá nhiều thời gian, công sức và phát sinh nhiều chi phí. Không có nguồn quỹ nào để rút ra những giới hạn mà chúng tôi có thể đạt được.&lt;/p>
+&lt;h3 id="giải-pháp-đề-xuất-bể-đào-cho-quỹ">Giải pháp đề xuất: Bể đào cho quỹ&lt;/h3>
+&lt;p>Tiếp cận người tham gia toàn cầu có nghĩa là gặp gỡ mọi người ở nơi họ đang sống, ở quốc gia của họ, ngôn ngữ của họ và văn hóa của họ.&lt;/p>
+&lt;p>Chúng tôi là một phần tích cực trong hệ sinh thái Cardano. Sự kiện nền tảng của chúng tôi là các phòng họp phía Đông hàng tuần. Nhưng chúng tôi đang làm nhiều hơn, rất nhiều hơn thế nữa:&lt;/p>
+&lt;ul>
+&lt;li>Chúng tôi cung cấp kiến thức và nội dung cho nhiều nền văn hóa nhất có thể.&lt;/li>
+&lt;li>Chúng tôi tổ chức các sự kiện khác nhau, nơi các thành viên cộng đồng đến với nhau&lt;/li>
+&lt;li>Chúng tôi là cầu nối với các nhóm không được đại diện&lt;/li>
+&lt;li>Chúng tôi tích hợp các quan điểm địa phương để làm phong phú Cộng đồng Catalyst; và&lt;/li>
+&lt;li>Chúng tôi lắng nghe! Thu thập ý kiến và dữ liệu để giúp tất cả chúng ta hiểu.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Chúng tôi đang thực hiện các công việc dịch thuật, xây dựng cộng đồng, chia sẻ kiến thức, tạo điều kiện cho các doanh nhân và phát triển Cardano.&lt;/strong>&lt;/p>
+&lt;p>Làm tất cả những việc đó đều có chi phí, vì vậy nếu chúng ta muốn duy trì các nỗ lực của phòng họp phía Đông, thì chúng ta cần đảm bảo nguồn tài trợ theo cách mà không như cách mà chúng tôi đã và đang làm.&lt;/p>
+&lt;p>Đề xuất này là về việc hình thành và duy trì một nhóm quỹ (ngân khố) được quản lý bởi những người đáng tin cậy của phòng họp phía Đông. Một nhóm quỹ để chi tiêu theo quyết định của chúng tôi. Ngân khố sẽ được sử dụng để trang trải các chi phí, để phát triển và duy trì những nỗ lực của phòng họp chính phía Đông. Các chi phí như tiền thưởng dịch thuật; sản xuất nội dung; thanh toán cho các đăng ký dịch vụ trực tuyến như Zoom, Github, HackMD, Statbot và các dịch vụ khác; chi cho các hoạt động liên quan đến tổ chức phòng họp mặt phía Đông.&lt;/p>
+&lt;p>Nói một cách đơn giản, đề xuất này là về kinh phí để tổ chức một nhóm cộng đồng. Thiết lập một nguồn lực và cấu trúc hỗ trợ phân tán cung cấp các quỹ cần thiết theo yêu cầu mà không cần các đề xuất Catalyst cụ thể.&lt;/p>
+&lt;p>Đổi lại, chúng tôi hứa sẽ báo cáo lại báo cáo tài chính về các hoạt động và chi phí của chúng tôi. Được dịch sang nhiều ngôn ngữ nhất mà chúng tôi có thể tìm được cộng tác viên. Mục đích của chúng tôi là tiên phong và tạo mẫu báo cáo quản lý kho bạc DAO [3]. Đó không phải là một vấn đề nhỏ và việc quản lý một nhóm quỹ được có rất nhiều vấn đề phức tạp để tuân theo. Nỗ lực báo cáo cũng tương tự như công việc được thực hiện bởi index.coop [4] và FWB [5]. Hầu hết các DAO vẫn đang tìm ra điều này và các phương pháp hay nhất thậm chí chưa được là bản nháp, vì vậy hãy giúp chúng tôi giải quyết vấn đề này.&lt;/p>
+&lt;p>Tìm hiểu cách Tòa thị chính phía Đông chi tiêu và phân bổ ngân quỹ sẽ giúp chúng tôi thu hút tài trợ trong tương lai. Giúp cộng tác viên xác định cơ hội làm việc với chúng tôi.&lt;/p>
+&lt;p>Giúp chúng tôi mở rộng quy mô và tiếp cận nhiều người hơn trên Đông bán cầu.&lt;/p>
+&lt;h3 id="phương-pháp-đo-lường-kpi-và-mục-tiêu">Phương pháp đo lường KPI và mục tiêu&lt;/h3>
+&lt;p>Một bảng câu hỏi về số lượng người đề xuất / cử tri / cố vấn được thực hiện cho mỗi &lt;strong>quỹ&lt;/strong> trong cộng đồng của quốc gia được hướng đến. Mục tiêu là tăng tỷ lệ tham gia lên 20% cho mỗi quỹ trong 6 tháng tới. Xem công việc của chúng tôi về phân tích giai đoạn gửi Catalyst Fund6 [6] như một ví dụ.&lt;/p>
+&lt;h3 id="các-hoạt-động-để-đạt-được-kpi">Các hoạt động để đạt được KPI&lt;/h3>
+&lt;p>&lt;strong>Hàng ngày&lt;/strong> : Các câu hỏi từ cộng đồng về Catalyst được các thành viên của chúng tôi trả lời bằng các ngôn ngữ tương ứng. Chúng tôi sẽ dịch nội dung Catalyst và xuất bản nó qua trang web của chúng tôi.&lt;/p>
+&lt;p>&lt;strong>Hàng tuần&lt;/strong> : Chúng tôi tổ chức các sự kiện và buổi gặp mặt lên kế hoạch hàng tuần, chia sẻ thông tin về các hoạt động của chúng tôi với từng cộng đồng.&lt;/p>
+&lt;p>&lt;strong>Hàng tháng&lt;/strong> : Chi tiêu của chúng tôi được báo cáo. Chúng tôi sẽ quản lý tài chính của bạn theo cách phi tập trung bằng cách sử dụng ví multi-sig.&lt;/p>
+&lt;p>&lt;strong>Theo Quỹ&lt;/strong> : Các cuộc khảo sát sẽ được thực hiện ở mỗi cộng đồng phía đông để đếm số lượng cử tri, người đề xuất và chuyên gia trong mỗi khu vực.&lt;/p>
+&lt;h3 id="chi-tiết-và-chi-phí-để-thực-hiện">Chi tiết và chi phí để thực hiện&lt;/h3>
+&lt;h3 id="ngân-sách">Ngân sách&lt;/h3>
+&lt;ol>
+&lt;li>Tham dự các cuộc họp lập kế hoạch dự án hàng tuần kích hoạt Đông bán cầu: 20 người x 2 giờ x 4 tuần x 6 tháng x 15 &lt;strong>đô la: 14.400 đô la&lt;/strong>&lt;/li>
+&lt;li>Quản lý tài chính, quản lý tiến độ, các hoạt động giám sát và báo cáo, các hoạt động tuyển dụng thành viên mới khác, v.v.: $ 500 x 6 tháng = &lt;strong>$ 3.000&lt;/strong>&lt;/li>
+&lt;li>Chi phí chung: Chi phí phát sinh trên nhiều dự án (tên miền, chi phí lưu trữ, Thu phóng): &lt;strong>1.000 đô la&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Tổng: (1) ＋ (2) ＋ (3): $ 18,400&lt;/p>
+&lt;p>▲ Giảm giá: $ 8,400&lt;/p>
+&lt;p>Thanh toán: $ 10.000&lt;/p>
+&lt;p>Yêu cầu tài trợ thêm trong các quỹ trong tương lai sẽ được yêu cầu để duy trì KPI hỗ trợ sự thành công của Cataslyt ở Đông bán cầu&lt;/p>
+&lt;p>Chúng tôi đã bắt đầu hoạt động này và sẽ tiếp tục thực hiện cho dù số tiền này có được huy động hay không. Chúng tôi đã chiết khấu 45,6% để giải phóng vốn cho một dự án rộng lớn hơn.&lt;/p>
+&lt;p>&lt;strong>LƯU Ý&lt;/strong> : Các khoản kinh phí cần thiết trực tiếp cho mỗi hoạt động, chẳng hạn như các sự kiện kinh doanh Đông Á ở Đông Bán cầu, các buổi gặp mặt, các hoạt động dịch thuật, thiết lập và quản lý chủ đề, v.v., không thuộc loại quỹ cần thiết cho đề xuất này.&lt;/p>
+&lt;h3 id="quyền-sở-hữu-trí-tuệ">Quyền sở hữu trí tuệ&lt;/h3>
+&lt;p>Việc tham gia vào cộng đồng của chúng tôi được đề cập trong &lt;a href="https://www.contributor-covenant.org/">Thỏa ước cộng tác viên&lt;/a> . Giấy phép Cộng tác viên đi kèm với các đóng góp cho dự án của chúng tôi. Bản quyền của đóng góp của bất kỳ ai được giữ lại; thỏa thuận chỉ đơn giản là cho phép chúng tôi sử dụng và phân phối lại các khoản đóng góp như một phần của dự án.&lt;/p>
+&lt;p>Tất cả mã nguồn của chúng tôi đều được cấp phép theo Giấy phép Apache 2.0 - hãy xem &lt;a href="https://github.com/c3eth/c3eth.github.io/main/LICENSE.md">tệp LICENSE&lt;/a> của chúng tôi để biết chi tiết.&lt;/p>
+&lt;p>Nội dung đã xuất bản của chúng tôi được cấp phép theo &lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Giấy phép Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) v4.0.&lt;/a>&lt;/p>
+&lt;h3 id="sau-6-tháng">Sau 6 tháng&lt;/h3>
+&lt;p>Chúng tôi đã chứng minh khả năng của mình trong việc tăng mức độ tham gia của Catalyst ở Đông bán cầu và các nước Đông Á lên 20% cho mỗi quỹ.&lt;/p>
+&lt;h3 id="về-đội-nhóm">Về Đội Nhóm&lt;/h3>
+&lt;p>Với nỗ lực hợp tác, nhóm mang lại nhiều kinh nghiệm về văn hóa và kỹ thuật cho Cardano. Tất cả chúng tôi đều hoặt động rất tích cực trong Catalyst và các nhóm cộng đồng trong hệ sinh thái của chúng tôi. Chúng tôi là một nhóm đa dạng được thống nhất bởi lời hứa của Cardano:&lt;/p>
+&lt;p>&lt;strong>Yuta Yuta&lt;/strong> (@yutazz) - Nhật Bản: Đại sứ chính thức của Cardano, Người đồng tổ chức cộng đồng, Người nhận Quỹ Catalyst 2, kế toán.&lt;/p>
+&lt;p>&lt;strong>Yan Tirta&lt;/strong> (@yantirta) - Indonesia: Hỗ trợ cộng đồng Cardano ở Indonesia, khuyến khích cộng đồng địa phương phát triển bằng giáo dục và sự khích lệ.&lt;/p>
+&lt;p>&lt;strong>Mie Tran&lt;/strong> (@ mie.tran.0407) - Việt Nam: Chuyên ngành Ngôn ngữ Anh và Kinh doanh Quốc tế, có kinh nghiệm làm việc với các doanh nghiệp phương Tây và phiên dịch.&lt;/p>
+&lt;p>&lt;strong>Andy Sibuea&lt;/strong> (@zicozibu) - Indonesia: Tiên phong trong viêc giáo dục blockchain trên nền tảng tiền điện tử trên phạm vi rộng khắp Indonesia.&lt;/p>
+&lt;p>&lt;strong>Tim O&amp;rsquo;Brien&lt;/strong> (@tobrien) - Việt Nam: Tiên phong trong công nghệ No-code. Người chủ trị tại phòng họp phía Đông Phi (EATH).&lt;/p>
+&lt;p>&lt;strong>Greg Bell&lt;/strong> (@grebel) - Úc: Chuyên gia tư vấn CNTT, người tạo ra những chellenge cho dự án Catalyst.&lt;/p>
+&lt;p>&lt;strong>Seomon Blub&lt;/strong> (@seomon) - Áo: Chuyên gia tư vấn CNTT tập trung vào cơ sở hạ tầng con người cho cộng đồng bền vững.&lt;/p>
+&lt;p>&lt;strong>Robert O&amp;rsquo;Brien&lt;/strong> (@wolstaeb) - New Zealand: Kỹ sư phần mềm hệ thống tài chính, Nhà đồng tổ chức và Doanh nhân cộng đồng.&lt;/p>
+&lt;p>&lt;strong>Stephen Whitenstall&lt;/strong> (@swhitenstall) - Anh: Theo dõi và soạn thảo tài liệu Catalyst. Giúp tổ chức các cộng đồng như Catalyst Circle và Catalyst Swarm.&lt;/p>
+&lt;p>&lt;strong>Felix Weber&lt;/strong> (@felixweber) - Pháp: Quản lý cộng đồng, xây dựng cầu nối giữa mọi người. Thành viên của T&amp;amp;M Catalyst Circle / Swarm / School.&lt;/p>
+&lt;p>&lt;strong>Đội đại diện tiên phong đáng tin cậy&lt;/strong> của Eastern Townhall. Không chia vai trò, không có nhà lãnh đạo. Đúng hơn là chúng tôi tự thành lập và phát triển theo thời gian, thông qua sự tham gia. Chúng tôi hợp tác và cộng tác với Catalyst Swarm [1], Catalyst School [2] và các nhóm cộng đồng khác trên khắp Châu Á.&lt;/p>
+&lt;h2 id="người-giới-thiệu">Người giới thiệu&lt;/h2>
+&lt;p>[1] &lt;a href="http://catalystswarm.com/">Catalyst Swarm&lt;/a>&lt;/p>
+&lt;p>[2] &lt;a href="https://linktr.ee/CatalystSchool">Catalyst School&lt;/a>&lt;/p>
+&lt;p>[3] &lt;a href="https://newsletter.banklesshq.com/p/how-daos-should-approach-treasury">Các DAO nên tiếp cận quản lý ngân quỹ như thế nào&lt;/a>&lt;/p>
+&lt;p>[4] &lt;a href="https://medium.com/indexcoop/index-coop-q3-financial-report-summary-1eda1a2ee629">Báo cáo tài chính quý 3 của Index Coop&lt;/a>&lt;/p>
+&lt;p>[5] &lt;a href="https://www.dropbox.com/s/po8qyk71aj3zfpc/FWB%20July%20Financial%20report%20published.pdf?dl=0">Báo cáo tài chính FWB DAO (PDF)&lt;/a>&lt;/p>
+&lt;p>[6] &lt;a href="https://forum.cardano.org/t/catalystfund6-submission-phase-analysis/70711">Phân tích giai đoạn gửi Catalyst Fund6&lt;/a>&lt;/p></description></item><item><title>Catalyst: Connect East Asian Entrepreneurs</title><link>/vi/catalyst/fund6/eth-proposals/connect-east-asian-entrepreneurs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/eth-proposals/connect-east-asian-entrepreneurs/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/Ibm36IXxnYA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;strong>Challenge:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/proposer-outreach/campaign-brief/">Proposer Outreach&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/Connect-East-Asian-Entrepreneurs/369120-48088">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Requested Amount (USD):&lt;/strong> $20,000&lt;/p>
+&lt;h2 id="problem-statement">Problem statement&lt;/h2>
+&lt;p>There are no initiatives to attract and engage East Asian entrepreneurs where they are, in their local language.&lt;/p>
+&lt;h2 id="describe-your-solution-to-the-problem">Describe your solution to the problem&lt;/h2>
+&lt;p>Use the Eastern Town Hall &amp;amp; targeted virtual events to establish and support a network of East Asian entrepreneurs.&lt;/p>
+&lt;h2 id="relevant-experience">Relevant experience&lt;/h2>
+&lt;p>Co-Founders of Catalyst Swarm, Eastern Townhall, Catalyst School. IT &amp;amp; Software Engineering. educators and accountant in East Asia &amp;amp; Japan.&lt;/p>
+&lt;h2 id="detailed-plan">Detailed plan&lt;/h2>
+&lt;p>We want to reach the massive untapped potential of East Asian entrepreneurs. Meet them where they are, in their country, their language and their culture. The Eastern Townhall wants to establish a growing network of East Asian entrepreneurs. Where they can build knowledge, share information, connect and support each other. Thinking global, acting local.&lt;/p>
+&lt;h3 id="current-problems-and-limitation">Current Problems and Limitation&lt;/h3>
+&lt;p>Recall a moment when you realised if you poked something, pushed it or moulded it, something new and interesting popped out the other side. We&amp;rsquo;re here again and this time on a global scale. We, the Cardano Catalyst community are pioneers in a new mindset. A new way of governing and funding. But to make a dent in the universe we need entrepreneurs. People are willing to take a risk, to poke, to push, and to mould new ways of doing.&lt;/p>
+&lt;p>Reaching Entrepreneurs is difficult when language and cultural barriers exist. Local context may also have undeveloped startup funding programmes too. This can result in unrealized startup funding opportunities. Few East Asian entrepreneurs are aware of the opportunities and the technical, economic benefits of Cardano; Nor is there a full understanding of how to apply Cardano technology within local communities to address local market opportunities. We want to change that.&lt;/p>
+&lt;h3 id="proposed-solution-cardano-startup-month">Proposed Solution: Cardano StartUp Month&lt;/h3>
+&lt;p>This proposal is about running virtual events in January/February 2022 to develop entrepreneurs in Vietnam and Indonesia. The event aims to upskill entrepreneurs to develop market opportunities based on Cardano.&lt;/p>
+&lt;p>&lt;strong>The purpose of the event is to build startup founders and Distributed Autonomous Organisation (DAO) collaborators.&lt;/strong> We are not building startups! Our intent is to educate. Focusing on experience-based learning by providing a soft way for the general public to access entrepreneurship and blockchain technology without risk.&lt;/p>
+&lt;p>The event will happen over four weeks:&lt;/p>
+&lt;p>&lt;strong>Virtual Networking (Week 1 &amp;amp; 2):&lt;/strong> The first two weeks of the event is about Networking. Getting registered participants to meet each other, discuss their ideas and aspirations. Tutorial sessions will be held to help upskill and familiarise people with business design tools.&lt;/p>
+&lt;p>&lt;strong>Pitch and Team-Up (Start of Week 3):&lt;/strong> All participants come together for the opening event where individual participants can give a 60-second pitch of a project idea they want to pursue. People vote with their feet by choosing to join a team.&lt;/p>
+&lt;p>&lt;strong>Learn and Work (Week 3 &amp;amp; 4)&lt;/strong>: Over the next two weeks, teams start working together. Mentors are assigned. Special sessions are run with experts. Teams are encouraged to validate their ideas with potential customers. Throughout the two weeks, each team will have four 30min pitch sessions with a panel of mentors that help them refine their pitch and Catalyst Proposal.&lt;/p>
+&lt;p>&lt;strong>Pitch (End of Week 4)&lt;/strong>: All participants come together for the closing event. The pitch! Each team is given five minutes to present their market problem and their solution to a panellist that ask questions. To pitch every team must have submitted their proposal to Catalyst. When all presentations are given the audience will pick the winning teams. Prizes will be awarded. We all celebrate! At the conclusion of Fund 8, Catalyst Voters choose who to fund.&lt;/p>
+&lt;p>The event will focus on Cardano Blockchain solutions and place emphasis on using Business Model Generation, Customer Development approaches and the use of analytical tools like Lean Startup, the Platform Design Toolkit, and Wardley Mapping.&lt;/p>
+&lt;p>By the time proposals are submitted in Fund 8, entrepreneurial teams will have formed, worked together, finished customer testing, and developed robust business models.&lt;/p>
+&lt;h3 id="what-success-looks-like">What Success Looks Like&lt;/h3>
+&lt;p>The event is planned to finish on conclusion of the second week of Catalyst fund 8, Feburary 2022. Teams will be submitting proposals to Catalyst Fund 8 as part of their work.&lt;/p>
+&lt;p>At the end of the event, at least 15 teams have managed to complete the process and submitted proposals to Catalyst Fund 8. Individuals complete the event with new skills, connections, and inspiration to continue their Cardano journey.&lt;/p>
+&lt;h4 id="key-performance-indicators">Key Performance Indicators&lt;/h4>
+&lt;p>For Entrepreneurs Startup Month, participation:&lt;/p>
+&lt;ul>
+&lt;li>Reaches 100 individuals that form into at least 20 teams.&lt;/li>
+&lt;li>At least 15 teams submit proposals.&lt;/li>
+&lt;li>At least 3 proposals that are funded in Catalyts Fund 8/9&lt;/li>
+&lt;/ul>
+&lt;p>At the end of the event:&lt;/p>
+&lt;ul>
+&lt;li>We have increased our social media presense by 1000 followers.&lt;/li>
+&lt;li>The event is covered by four major media outlets.&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-one-month">After One Month:&lt;/h4>
+&lt;ul>
+&lt;li>Event Team formed, project plans and budgets finalised.&lt;/li>
+&lt;li>Event Website and Social Media Accounts established.&lt;/li>
+&lt;li>Event Online registration setup.&lt;/li>
+&lt;li>Event Promotional content (blogs/video) developed.&lt;/li>
+&lt;li>PR and promotion of the event started.&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-two-months">After Two Months:&lt;/h4>
+&lt;ul>
+&lt;li>Mentors, Judges and Registrations all confirmed&lt;/li>
+&lt;li>Event underway and is being run.&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-six-months">After Six Months:&lt;/h4>
+&lt;ul>
+&lt;li>First event successfully completed and we are planning another improved event.&lt;/li>
+&lt;li>Three teams have turned into three funded projects that are activily building on Cardano.&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-twelve-months">After Twelve Months:&lt;/h4>
+&lt;ul>
+&lt;li>The Cardano Start Month/Week is an established event on the Asian Cardano Calendar.&lt;/li>
+&lt;/ul>
+&lt;h3 id="intellectual-property">Intellectual Property&lt;/h3>
+&lt;p>All our source code is licensed under the Apache License 2.0 - see our &lt;a href="https://github.com/c3eth/c3eth.github.io/main/LICENSE.md">LICENSE&lt;/a> file for details. Our published content is licensed under the &lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) License v4.0.&lt;/a>&lt;/p>
+&lt;h3 id="budget">Budget&lt;/h3>
+&lt;p>Please see attached proposed plan for a detailed budget breakdown with planned activities.&lt;/p>
+&lt;ul>
+&lt;li>Core Team &lt;strong>$10,500 USD:&lt;/strong>
+including project management, content production, comunity management, and adminstration.&lt;/li>
+&lt;li>Supporting Team &lt;strong>$3,500 USD:&lt;/strong>
+Mentors, judges, special guests.&lt;/li>
+&lt;li>Marketing and Communication &lt;strong>$5000 USD:&lt;/strong>
+Media Visit, Influencer collaboration, Google/IG ads&lt;/li>
+&lt;li>Contingency (%5): &lt;strong>$1,000 USD&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h3 id="the-team">The Team&lt;/h3>
+&lt;p>A collaborative effort, the team bring a wealth of cultural and technical experience to Cardano. We are all very active in Catalyst, and community groups across our ecosystem. We are a diverse bunch united by the promise of Cardano:&lt;/p>
+&lt;p>&lt;strong>Yuta Yuta&lt;/strong> (@yutazz) - Japan: Cardano official ambassador, Community Co-Organiser, Catalyst Fund 2 Recipient, certified public accountant.&lt;/p>
+&lt;p>&lt;strong>Yan Tirta&lt;/strong> (@yantirta) - Indonesia: Cardano Indonesia community wrangler empowering his local community with education and encouragement.&lt;/p>
+&lt;p>&lt;strong>Mie Tran&lt;/strong> (@mie.tran.0407) - Vietnam: English and International Business major with experience working with western businesses and translation.&lt;/p>
+&lt;p>&lt;strong>Andy Sibuea&lt;/strong> (@zicozibu) - Indonesia: Leading blockchain education beyond cryptocurrencies and across Indonesia.&lt;/p>
+&lt;p>&lt;strong>Tim O’Brien&lt;/strong> (@tobrien) - Vietnam: No-code pioneer. Facilitator in East African Townhall (EATH).&lt;/p>
+&lt;p>&lt;strong>Greg Bell&lt;/strong> (@grebel) - Australia: IT consultant, writing Catalyst Challenges.&lt;/p>
+&lt;p>&lt;strong>Seomon Blub&lt;/strong> (@seomon) - Austria: IT consultant focused on the people-ware infrastructure for sustainable communities.&lt;/p>
+&lt;p>&lt;strong>Robert O’Brien&lt;/strong> (@wolstaeb) - New Zealand: Financial systems Software Engineer, Community Co-Organiser and Entrepreneur.&lt;/p>
+&lt;p>&lt;strong>Stephen Whitenstall&lt;/strong> (@swhitenstall) - England: Tracks and documents Catalyst. Helping communities like Catalyst Circle and Catalyst Swarm organise.&lt;/p>
+&lt;p>&lt;strong>Felix Weber&lt;/strong> (@felixweber) - France: Community Manager building bridges between people. Member of the T&amp;amp;M Catalyst Circle/Swarm/School.&lt;/p>
+&lt;p>We are working with Venture Centre[1], IdeaFest[2], and Catalyst School[3]; as part of the proposal, we aim to work with Enterprenerdy[4], Emurgo[5], local Universities, and IOG&amp;rsquo;s Catalyst Team.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;p>[1] &lt;a href="https://www.venturecentre.nz/">Venture Centre&lt;/a>&lt;/p>
+&lt;p>[2] &lt;a href="https://catalyst-swarm.gitbook.io/catalyst-swarm-genesis/july-2021/catalyst-idea-fest-july-2021">IdeaFest&lt;/a>&lt;/p>
+&lt;p>[3] &lt;a href="https://linktr.ee/CatalystSchool">Catalyst School&lt;/a>&lt;/p>
+&lt;p>[4] &lt;a href="https://entreprenerdy.com/">Enterprenerdy&lt;/a>&lt;/p>
+&lt;p>[5] &lt;a href="https://emurgo.io/">Emurgo&lt;/a>&lt;/p></description></item><item><title>Catalyst: Connecting Asian Voters and Proposers</title><link>/vi/catalyst/fund6/eth-proposals/connect-asian-voters-proposers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/eth-proposals/connect-asian-voters-proposers/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/xtfa15Wl11E" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>&lt;strong>Challenge:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/distributed-decision/campaign-brief/">Distributed decision making&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/Connecting-Asian-Voters-Proposers/369063-48088">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Requested Amount (USD):&lt;/strong> $15,000&lt;/p>
+&lt;h2 id="problem-statement">Problem statement&lt;/h2>
+&lt;p>There are barriers, such as a lack of trusted information to voting caused by language differences &amp;amp; cultural exclusivity.&lt;/p>
+&lt;h2 id="describe-your-solution-to-the-problem">Describe your solution to the problem&lt;/h2>
+&lt;p>Provide trusted information by meeting people where they are, in their local language and culture.&lt;/p>
+&lt;h2 id="relevant-experience">Relevant experience&lt;/h2>
+&lt;p>Co-Founders of Catalyst Swarm, Eastern Townhall, Catalyst School. IT &amp;amp; Software Engineering. educators and accountant in East Asia &amp;amp; Japan.&lt;/p>
+&lt;h2 id="detailed-plan">Detailed plan&lt;/h2>
+&lt;p>Voting on how Catalyst spends the treasury creates long-term value to ADA, but with so many proposals, with so many new concepts, how do we make any voting decision? Now imagine how difficult it must be when you do not speak English. All Ada holders benefit if we develop better more inclusive and diverse governance processes and strategies. Unless the Catalyst Community and Ada holders level up our collective cognition, a random voting strategy is just as valid as a well researched one.&lt;/p>
+&lt;h3 id="current-problems-and-limitation">Current Problems and Limitation&lt;/h3>
+&lt;p>Language differences and cultural exclusivity prevents governance initiatives from scaling globally. The constant experimentation of Catalyst means we need to be mindful to include different languages and cultures. Avoiding one culture dominating the narrative.&lt;/p>
+&lt;p>Misaligned incentives, scams and information overload prevent Ada holders from voting. In Asia and other non-native English speaking cultures, language barriers compound this. Language barriers are evident at every Catalyst stage. Survey results showed in the Japanese community biggest problem of Catalyst voting was the lack of Japanese support (45.61%). Over %37 of respondents highlighted issues with understanding the process- &amp;ldquo;I didn&amp;rsquo;t understand the meaning because it was in English, so I voted randomly&amp;rdquo;. The weariness of scams and lack of trust between proposals and voters were highlighted too. Another %16 mentioned incentive misalignment issues.&lt;/p>
+&lt;h3 id="our-solution-eastern-townhall-goverance-forum">Our solution: Eastern Townhall Goverance Forum&lt;/h3>
+&lt;p>Our goal is to establish a process, format, and event stage for voter and proposer onboarding. To bring voters, proposers, and proposals closer together. To establish trust between them. The focus is on six mutually reinforcing areas:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Content production&lt;/strong>: Help Ada holders understanding why it is important to vote on proposals.&lt;/li>
+&lt;li>&lt;strong>Eastern Hemisphere Language-specific events&lt;/strong> focused on voter education and discussion.&lt;/li>
+&lt;li>A proposal &lt;strong>language translation pipeline&lt;/strong> to help proposers reach the wider East Asian community.&lt;/li>
+&lt;li>&lt;strong>Language-specific Catalyst Swarm Ideafests&lt;/strong> as a stage for building voter awareness, engagement, and trust.&lt;/li>
+&lt;li>&lt;strong>Social Media Marketing&lt;/strong>: socialise voter content and messaging across our social media channels; and&lt;/li>
+&lt;li>Conduct &lt;strong>routine surveys and user research&lt;/strong> to help understand individual attitudes to Catalyst and proposal formats.&lt;/li>
+&lt;/ol>
+&lt;p>The proposal is seeking funds to help develop a programme specifically designed to help connect voters with proposals and proposers.&lt;/p>
+&lt;p>Together these activities form a programme we call the &lt;strong>Eastern Townhall Forum&lt;/strong>. Our cornerstone event is the weekly Eastern Townhalls. But we are doing more. We are doing translations, building community, sharing knowledge, educating, enabling entrepreneurs, and growing Cardano.&lt;/p>
+&lt;p>The Eastern Townhall trusted seed are an active part of our Cardano ecosystem. Listening and engaging with members of the community. Sharing what we learn. For instance &lt;strong>Yuta Yuta&lt;/strong> recently completed one of his many surveys of the Japanese community[1] that this proposal draws upon. We want to do more of this across all the communities. We would like to help improve the user experience for voters. Feeding our collective insights back into Project Catalyst.&lt;/p>
+&lt;p>Help us improve decision making across the Eastern Hemisphere by making Catalyst voting more accessible.&lt;/p>
+&lt;h2 id="what-success-looks-like">What Success Looks Like&lt;/h2>
+&lt;p>Participation in Eastern Townhall events has increased and maintains the vibrancy of the new and regular community members. More Catalyst proposers engage with the Asian community. Even if that is just translation of proposals, content, or DApps for the Asian markets. Additionally, Asian proposers find their crowd. They are able to be funded because there is a strong body of Asian voters participating in Catalyst. Survey results show an increase in voter engagement with proposers, the Catalyst process, and deliberations before voting.&lt;/p>
+&lt;h3 id="key-performance-indicators">Key Performance Indicators&lt;/h3>
+&lt;p>Our primary tool for measuring performance is our voter survey. We will conduct these on a regular basis across Asian countries. Based on the surveys during and after a fund we expect to:&lt;/p>
+&lt;ul>
+&lt;li>Increase Asian voter participation by 30% from the previous funds.&lt;/li>
+&lt;li>Increase Asian participation in Catalyst by 20% from the previous fund.&lt;/li>
+&lt;li>Uncertainty around Catalyst and voting decreases 25% from the previous fund.&lt;/li>
+&lt;/ul>
+&lt;p>The Eastern Townhall Meetup is our primary stage where Ada holders and people interested in Cardano can come and meet community members. Through that platform and social media, people learn and feel comfortable going further. Therefore key engagement metrics indicate our success in bridging voters and proposers together:&lt;/p>
+&lt;ul>
+&lt;li>The Easter Townhall meetup average weekly numbers increase 25% for each fund.&lt;/li>
+&lt;li>Catalyst Proposals available in four languages &lt;em>(ID, JP, KR, VN)&lt;/em> increase 50% for each fund.&lt;/li>
+&lt;li>Eastern Townhall Social Media accounts increase followers by 1000 new followers in six months.&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-one-month">After One Month:&lt;/h4>
+&lt;ul>
+&lt;li>Completed our first pan-Asia voter survey across four Asian countries &lt;em>(ID, JP, KR, VN)&lt;/em>&lt;/li>
+&lt;li>Language-Specific events – Voter Education &amp;amp; Catalyst Swarm&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-three-months">After Three Months:&lt;/h4>
+&lt;ul>
+&lt;li>Produced our Voter Education videos&lt;/li>
+&lt;li>Translated Catalyst voter materials in four Asian languages &lt;em>(ID, JP, KR, VN)&lt;/em>&lt;/li>
+&lt;li>Held the first formal language specific Eastern Townhall - Catalyst Swarm IdeaFests. (A test run for Fund 6 is being done to find our feet).&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-six-months">After Six Months:&lt;/h4>
+&lt;ul>
+&lt;li>Completed six voter surveys across four Asian countries &lt;em>(ID, JP, KR, VN)&lt;/em>&lt;/li>
+&lt;li>Completed a retrospective on our activities.&lt;/li>
+&lt;/ul>
+&lt;h4 id="after-twelve-months">After Twelve Months:&lt;/h4>
+&lt;ul>
+&lt;li>We have incorporated the content and practices need to engage with Asian voters and proposers.&lt;/li>
+&lt;li>Our monthly surveys continue and show forward momentum.&lt;/li>
+&lt;li>Our content continues to engage members of the community&lt;/li>
+&lt;li>We have translated our content and Catalyst material to more languages across Asia.&lt;/li>
+&lt;/ul>
+&lt;h2 id="intellectual-property">Intellectual Property&lt;/h2>
+&lt;p>All our source code is licensed under the Apache License 2.0 - see our &lt;a href="https://github.com/c3eth/c3eth.github.io/main/LICENSE.md">LICENSE&lt;/a> file for details.&lt;/p>
+&lt;p>Our published content is licensed under the &lt;a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) License v4.0.&lt;/a>&lt;/p>
+&lt;h2 id="budget">Budget&lt;/h2>
+&lt;p>Please see the attached proposed plan for a detailed budget breakdown with planned activities.&lt;/p>
+&lt;ul>
+&lt;li>Core Team &lt;strong>$4,000 USD:&lt;/strong>
+Including project management and adminstration.&lt;/li>
+&lt;li>Supporting Team &lt;strong>$5,000 USD:&lt;/strong>
+Community Managers/Leaders, Moderators, and Interpreters&lt;/li>
+&lt;li>Graphics and Video Content Production &lt;strong>$4500 USD:&lt;/strong>
+Educational videos, social media posters/video, and translations&lt;/li>
+&lt;li>Contingency (%10): &lt;strong>$1,500 USD&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Labour costs are a lot lower in Vietnam and Indonesia we are able to do more. However, these costs need to be normalised to a global median for kind work/skill. Not everyone lives in Vietnam/Indonesia.&lt;/p>
+&lt;h3 id="the-team">The Team&lt;/h3>
+&lt;p>A collaborative effort, the team bring a wealth of cultural and technical experience to Cardano. We are all very active in Catalyst, and community groups across our ecosystem. We are a diverse bunch united by the promise of Cardano:&lt;/p>
+&lt;p>&lt;strong>Yuta Yuta&lt;/strong> (@yutazz) - Japan: Cardano official ambassador, Community Co-Organiser, Catalyst Fund 2 Recipient, certified public accountant.&lt;/p>
+&lt;p>&lt;strong>Yan Tirta&lt;/strong> (@yantirta) - Indonesia: Cardano Indonesia community wrangler empowering his local community with education and encouragement.&lt;/p>
+&lt;p>&lt;strong>Mie Tran&lt;/strong> (@mie.tran.0407) - Vietnam: English and International Business major with experience working with western businesses and translation.&lt;/p>
+&lt;p>&lt;strong>Andy Sibuea&lt;/strong> (@zicozibu) - Indonesia: Leading blockchain education beyond cryptocurrencies and across Indonesia.&lt;/p>
+&lt;p>&lt;strong>Tim O’Brien&lt;/strong> (@tobrien) - Vietnam: No-code pioneer. Facilitator in East African Townhall (EATH).&lt;/p>
+&lt;p>&lt;strong>Greg Bell&lt;/strong> (@grebel) - Australia: IT consultant, writing Catalyst Challenges.&lt;/p>
+&lt;p>&lt;strong>Seomon Blub&lt;/strong> (@seomon) - Austria: IT consultant focused on the people-ware infrastructure for sustainable communities.&lt;/p>
+&lt;p>&lt;strong>Robert O’Brien&lt;/strong> (@wolstaeb) - New Zealand: Financial systems Software Engineer, Community Co-Organiser and Entrepreneur.&lt;/p>
+&lt;p>&lt;strong>Stephen Whitenstall&lt;/strong> (@swhitenstall) - England: Tracks and documents Catalyst. Helping communities like Catalyst Circle and Catalyst Swarm organise.&lt;/p>
+&lt;p>&lt;strong>Felix Weber&lt;/strong> (@felixweber) - France: Community Manager building bridges between people. Member of the T&amp;amp;M Catalyst Circle/Swarm/School.&lt;/p>
+&lt;p>The team represents the initial Eastern Town Hall &lt;strong>trusted seed&lt;/strong>. There are no roles, no leaders. Rather people establish themselves over time, through participation. We overlap and collaborate with Catalyst Swarm[2], and Catalyst School[3] and other community groups across Asia.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;p>[1] &lt;a href="https://t.me/ProjectCatalystChat/53776">Japanese community Survey August 2021&lt;/a>&lt;/p>
+&lt;p>[2] &lt;a href="http://catalystswarm.com/">Catalyst Swarm&lt;/a>&lt;/p>
+&lt;p>[3] &lt;a href="https://linktr.ee/CatalystSchool">Catalyst School&lt;/a>&lt;/p></description></item><item><title>Catalyst: On-boarding East Asia Today!</title><link>/vi/catalyst/fund6/eth-proposals/on-board-east-asia-today/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/eth-proposals/on-board-east-asia-today/</guid><description>
+&lt;p>&lt;strong>Challenge:&lt;/strong> &lt;a href="/vi/catalyst/fund6/challenges/multilingual-resources/campaign-brief/">Multilingual resources&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/dtd/On-boarding-East-Asia-Today!/368844-48088?">&lt;img src="https://img.shields.io/badge/Proposal-Catalyst-blue" alt="Catalyst Proposal Badge">&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Requested Amount (USD):&lt;/strong> $12,500&lt;/p>
+&lt;p>&lt;img src="https://i.imgur.com/JFsp5WD.png" alt="English Proficiency Index: www.ef.com/epi">&lt;/p>
+&lt;h2 id="problem-statement">Problem statement&lt;/h2>
+&lt;p>Despite a population of billions, East Asians are underrepresented in Catalyst due to a lack of localised content.&lt;/p>
+&lt;h2 id="describe-your-solution-to-the-problem">Describe your solution to the problem&lt;/h2>
+&lt;p>Setup a translation pipeline that will translate catalyst documentation &amp;amp; proposals across as many languages in East Asia as possible.&lt;/p>
+&lt;h2 id="relevant-experience">Relevant experience&lt;/h2>
+&lt;p>Co-Founders of Catalyst Swarm, Eastern Townhall, Catalyst School. IT &amp;amp; Software Engineering. educators and accountant in East Asia &amp;amp; Japan.&lt;/p>
+&lt;h2 id="detailed-plan">Detailed plan&lt;/h2>
+&lt;p>East Asia and Southeast Asia region unites culturally and linguistically diverse countries. People in these communities are excited about getting involved in the Cardano ecosystem. Despite having a population of 1.6 Billion, Catalyst has seen very few proposals from East Asia and Southeast Asian regions.&lt;/p>
+&lt;h3 id="current-problems-and-limitation">Current Problems and Limitation&lt;/h3>
+&lt;p>Across East Asia and Southeast Asian regions, English is not routinely spoken and a web of regional languages are used [1].&lt;/p>
+&lt;p>Language barriers reduce participation in Catalyst. It limits the potential growth of Cardano adoption and utility in this region. We experience this, we hear this from our communities. We know Cardano is missing our stories, our energy, and our perspectives of how to use Cardano to increase economic wellbeing.&lt;/p>
+&lt;h3 id="proposed-solution-translation-pipeline-and-automation">Proposed Solution: Translation Pipeline and Automation&lt;/h3>
+&lt;p>Our objective is to build and document a streamlined process for content translation and start the development of localised content. We have already set up a simple translation pipeline[2] using Git, Hugo, and Github Actions. We&amp;rsquo;ve tested several translation services such as Crowdin[3], Lokalize[4], PoEditor[5], and GitLozalise[6] for the Eastern Townhall to help us organise and gain some experience.&lt;/p>
+&lt;p>Our initial objective is simple: to get a lot of existing Cardano and Catalyst material translated into as many languages of the East and Southeast Asian regions using a semi-automated system. Gaining experience and building community. Documenting what we do and how.&lt;/p>
+&lt;p>By semi-automated system, we do not mean machine translation. While Machine translation is helpful as a starting point, it has difficulty with specialised terms and does not read naturally. Human translations will always have a slight advantage. A semi-automated system refers to an ability to queue a piece of work for translation, which may include feeding it through a machine translation service, have it worked on by someone, reviewed, and then published.&lt;/p>
+&lt;p>We will start to embrace and extend the excellent localisation documentation processes established by Kubernetes SIG Docs group[7] to help us. Adapting the processes to accommodate the varying technical skills and future directions we want to take.&lt;/p>
+&lt;h3 id="work-streams">Work Streams&lt;/h3>
+&lt;p>To establish a functioning and sustainable translation pipeline, we are seeking initial funding to help develop the work we have already started. The funding will cover five workstreams:&lt;/p>
+&lt;ol>
+&lt;li>Evaluation of translation services and their integration:
+with Git, Github, Ideascale, and the Markdown-based documentation efforts of the Cardano Foundation.&lt;/li>
+&lt;li>Design, configuration, testing of a translation pipeline:
+The goal is to have a small scale process in place that is easy enough to follow and requires minimal supervision.&lt;/li>
+&lt;li>Documenting translation process &amp;amp; development of tutorial material:
+Embrace and extend the Kubernettes SIG Doc[7] processes to help with our own needs. Developing localised tutorial content to onboard future translators.&lt;/li>
+&lt;li>Train the trainers:
+Run training sessions with Eastern Townhall members to a level of competence in the process such that they can train others.&lt;/li>
+&lt;li>Translations:
+Getting up to speed on our workflow is going to require some hands-on tinkering and experience. We aim to translate a selection of Catalyst Guides, Community Advisor, voter education and our own material. That takes time and effort for each language.&lt;/li>
+&lt;/ol>
+&lt;h3 id="getting-scale-earn-to-learn">Getting Scale: Earn-to-Learn&lt;/h3>
+&lt;p>To get true scale, translations and localisation standards, automation, and skills need to be developed so we can outsource localisation to the wider Cardano community. Doing translation and localisation work as a way to get more involved in Cardano and the different communities. Doing translation and localisation work; learning and earning. Doing translation and localisation work to build a reputation and earn Ada. We see a future that leverages Metadata, Native Assets, Non-Fungible Tokens (NFT), Machine-Learning, and Atala Prism on the Cardano blockchain to give us language and cultural reach. However, starting simply first.&lt;/p>
+&lt;h3 id="collaboration">Collaboration&lt;/h3>
+&lt;p>Translation and localisation of content is a general issue across many groups working in Cardano and Catalyst. We do not plan to do this work alone or exclusively. In the Eastern Town Hall, we are at the forefront of managing many languages and cultures, our plan is to develop practices and automated processes for our own purposes, and share them widely. Everything we learn and do, we hope will inform the Cardano ecosystem at large.&lt;/p>
+&lt;h2 id="what-success-looks-like">What Success Looks Like&lt;/h2>
+&lt;p>Near-term the Eastern Townhall is able to translate and host Catalyst Proposals as they are finalised. Translated for our four initial languages in the Asian region. Funded project reports are integrated and translated too. We have also translated, and maintain those translations, of key Cardano and Catalyst documents and guides.&lt;/p>
+&lt;p>Mid-term we would like to expand the languages translated, and we are actively working with other groups across the Cardano Ecosystem to do this work.&lt;/p>
+&lt;p>Longer-term success means we&amp;rsquo;ve established a whole decentralised workflow for translation and interpretation of any document, video, podcast etc. using the Cardano Network as the coordinating backbone. Where one of the simplest ways to onboard and earn ADA in the Cardano ecosystem system is to help translate, transcribe or interpret material (no harm in dreaming big!).&lt;/p>
+&lt;h3 id="key-performance-indicators">Key Performance Indicators&lt;/h3>
+&lt;p>Since we are using Git, and Github for the Eastern Townhall planning, organisation, documentation, metrics are derived from Github activity and engagement.&lt;/p>
+&lt;p>&lt;strong>Key Metric&lt;/strong>: Project Velocity[8], defined as a combination of base activity metric of commits and pull-requests taken from Github.&lt;/p>
+&lt;p>&lt;strong>Activity Metrics&lt;/strong>: captured as project activity in Github and cadence documents added and the speed of translation.&lt;/p>
+&lt;p>&lt;strong>Community Metrics&lt;/strong>: engagement behaviours broken down into four categories[9] for the Eastern Townhall website, to measure how our work is being spread and used in the Cardano ecosystem.&lt;/p>
+&lt;h3 id="after-one-month">After One Month:&lt;/h3>
+&lt;ul>
+&lt;li>Eastern Townhall website information architecture has been developed.&lt;/li>
+&lt;li>Primary content for the initial website has been identified and ported to Markdown.&lt;/li>
+&lt;li>The entire Eastern Townhall website is translated.&lt;/li>
+&lt;/ul>
+&lt;h3 id="after-three-months">After Three Months:&lt;/h3>
+&lt;ul>
+&lt;li>We have established a semi-automated translation pipeline driven by Git Pull requests.&lt;/li>
+&lt;li>Evaluated and tested different translations services as a means to simplify translation.&lt;/li>
+&lt;li>Documented our initial translation process and trained the trainers.&lt;/li>
+&lt;li>Expanded formats for translations to include video subtitles.&lt;/li>
+&lt;li>Issuing NFTs for skills, language, and attribution/contribution tracking.&lt;/li>
+&lt;/ul>
+&lt;h3 id="after-six-months">After Six Months:&lt;/h3>
+&lt;ul>
+&lt;li>On-boarding more members of the Cardano Community to do translations.&lt;/li>
+&lt;li>Added two more Eastern hemisphere languages to our core set.&lt;/li>
+&lt;li>Tutorial material (documentation and videos) is developed and translated to help onboard new contributors and languages.&lt;/li>
+&lt;/ul>
+&lt;h3 id="after-twelve-months">After Twelve Months:&lt;/h3>
+&lt;ul>
+&lt;li>All Catalyst Proposals and Funded Projects are translated and published within days of being produced.&lt;/li>
+&lt;li>We have expanded our core language set to include the ten languages from the Eastern hemisphere.&lt;/li>
+&lt;li>The translation project is self-sustaining because projects/teams/businesses want to reach our audience in their native language.&lt;/li>
+&lt;li>The Cardano ecosystem coalesce around similar standards for document management and their translations.&lt;/li>
+&lt;/ul>
+&lt;h3 id="licensing">Licensing&lt;/h3>
+&lt;p>All our source code will be licensed under a free and open-source (OSI) license e.g. MIT, and contributions must be contributed patent-free. Contributors will be required to agree to a Contributor Covernant[10].&lt;/p>
+&lt;p>Published content will be licensed under the Creative Attribution-Non-Commercial-ShareAlike International (CC BY-NC-SA) License v4.0. Any meta-data specifications will be published under a Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) license. Where and when applicable metadata specifications for document identification and provenance will be submitted as Cardano Improvement Proposals.&lt;/p>
+&lt;p>Code, documentation, project activity is made available on Github or in the future a similar service.&lt;/p>
+&lt;h2 id="budget">Budget&lt;/h2>
+&lt;p>The requested Fund 6 budget is for wages for three months and six months of expenses. Fifty per cent of funds will be used retrospectively to cover work and expenses we are already undertaking.&lt;/p>
+&lt;ul>
+&lt;li>Evaluation/Integration of Translation services: $1200 USD&lt;/li>
+&lt;li>Workflow Automation: $3000 USD&lt;/li>
+&lt;li>Process Documentation: $2200 USD&lt;/li>
+&lt;li>Train the Trainers: $850 USD&lt;/li>
+&lt;li>Translations: $1250 USD&lt;/li>
+&lt;li>Project Management (%8): $1000 USD&lt;/li>
+&lt;li>Software Services &amp;amp; Servers: $3000 USD&lt;/li>
+&lt;/ul>
+&lt;p>Software Services &amp;amp; Servers fees ($500 x 6 months = $3,000) includes the expenses of using a translation service (anywhere from $140USD to $240USD a month) to help streamline translations; Github; website hosting and any servers needed for translation.&lt;/p>
+&lt;p>This funding only concerns setting up and testing a translation pipeline. Further funds will be requested to continue any work beyond the three month period, either through Catalyst or other means of funding the Eastern Townhall activity.&lt;/p>
+&lt;h3 id="the-team">The Team&lt;/h3>
+&lt;p>A collaborative effort, the team bring a wealth of cultural and technical experience to Cardano. We are all very active in Catalyst, and community groups across our ecosystem. We are a diverse bunch united by the promise of Cardano:&lt;/p>
+&lt;p>&lt;strong>Yuta Yuta&lt;/strong> (@yutazz) - Japan: Cardano official ambassador, Community Co-Organiser, Catalyst Fund 2 Recipient, certified public accountant.&lt;/p>
+&lt;p>&lt;strong>Yan Tirta&lt;/strong> (@yantirta) - Indonesia: Cardano Indonesia community wrangler empowering his local community with education and encouragement.&lt;/p>
+&lt;p>&lt;strong>Mie Tran&lt;/strong> (@mie.tran.0407) - Vietnam: English and International Business major with experience working with western businesses and translation.&lt;/p>
+&lt;p>&lt;strong>Andy Sibuea&lt;/strong> (@zicozibu) - Indonesia: Leading blockchain education beyond cryptocurrencies and across Indonesia.&lt;/p>
+&lt;p>&lt;strong>Tim O’Brien&lt;/strong> (@tobrien) - Vietnam: No-code pioneer. Facilitator in East African Townhall (EATH).&lt;/p>
+&lt;p>&lt;strong>Greg Bell&lt;/strong> (@grebel) - Australia: IT consultant, writing Catalyst Challenges.&lt;/p>
+&lt;p>&lt;strong>Seomon Blub&lt;/strong> (@seomon) - Austria: IT consultant focused on the people-ware infrastructure for sustainable communities.&lt;/p>
+&lt;p>&lt;strong>Robert O’Brien&lt;/strong> (@wolstaeb) - New Zealand: Financial systems Software Engineer, Community Co-Organiser and Entrepreneur.&lt;/p>
+&lt;p>&lt;strong>Stephen Whitenstall&lt;/strong> (@swhitenstall) - England: Tracks and documents Catalyst. Helping communities like Catalyst Circle and Catalyst Swarm organise.&lt;/p>
+&lt;p>&lt;strong>Felix Weber&lt;/strong> (@felixweber) - France: Community Manager building bridges between people. Member of the T&amp;amp;M Catalyst Circle/Swarm/School.&lt;/p>
+&lt;p>The team represents the initial Eastern Town Hall &lt;strong>trusted seed&lt;/strong>. There are no roles, no leaders. Rather people establish themselves over time, through participation. The exteded team includes professional interpreters and translators.&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;p>[1] &lt;a href="https://www.ef.com/wwen/epi/">English Proficiency Index&lt;/a>&lt;/p>
+&lt;p>[2] &lt;a href="https://c3eth.github.io/catalyst/fund6/">Eastern Townhall Catalyst Fund 6 Work&lt;/a>&lt;/p>
+&lt;p>[3] &lt;a href="https://crowdin.com/">Crowdin&lt;/a>&lt;/p>
+&lt;p>[4] &lt;a href="https://lokalise.com/">Lokalize&lt;/a>&lt;/p>
+&lt;p>[5] &lt;a href="https://poeditor.com/">PoEditor&lt;/a>&lt;/p>
+&lt;p>[6] &lt;a href="https://gitlocalize.com/">GitLozalise&lt;/a>&lt;/p>
+&lt;p>[7] &lt;a href="https://kubernetes.io/docs/contribute/localization/#minimum-required-content">Kubernetes SIG Docs group&lt;/a>&lt;/p>
+&lt;p>[8] &lt;a href="https://chaoss.community/metric-project-velocity/">Project Velocity&lt;/a>&lt;/p>
+&lt;p>[9] &lt;a href="https://communityroundtable.com/best-practices/thecrs-work-out-loud-framework/">Community Metrics&lt;/a>&lt;/p>
+&lt;p>[10] &lt;a href="https://www.contributor-covenant.org/">Contributor Covernant&lt;/a>&lt;/p></description></item><item><title>Catalyst: Cardano Emerging Threat Alarm</title><link>/vi/catalyst/fund6/challenges/emerging-threats/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/emerging-threats/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để giúp các bên liên quan xác định các mối đe dọa có hệ thống nghiêm trọng rõ rệt đối với Cardano blockchain trước khi một mối đe dọa vượt qua hệ thống?&lt;/p>
+&lt;p>Fund Size: &lt;strong>$50,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26110">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26110/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Blockchain systems are a complex amalgam of technological, economic and social components that rely and are used by many stakeholders from different geographies and backgrounds. These systems are not isolated from the real world and unexpected threats may emerge from the dynamic interaction.&lt;/p>
+&lt;p>Cardano stakeholders (users, SPOs, DApp developers, partners, Exchanges, governments, companies) need a resilient system that is able to identify and grade developing threats to its own existence.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Cardano complexity increases with decentralization, native tokens, multi-asset support, smart contracts and new users. Threats will emerge.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Stable evolution. Cardano successfully onboards new users, developers, DApps, tokens, SPOs, oracles, companies. Threats are identified&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;p>At the end of this challenge, we should be asking ourselves: Did we manage to create a simple mechanism for identifying novel, emerging systemic threats to the Cardano ecosystem? We can&amp;rsquo;t see the future now, but as events unfold we may be able to use our collective wisdom and senses to detect new dangers for the Cardano blockchain and its usage.&lt;/p>
+&lt;ul>
+&lt;li>Number of potential threats that have been submitted.&lt;/li>
+&lt;li>Grading of the submitted threats by urgency&lt;/li>
+&lt;li>Number of threats that have been identified as serious and systemic.&lt;/li>
+&lt;li>Grouping of threat sources into categories and types to determine wider danger areas&lt;/li>
+&lt;li>Number of Cardano stakeholders interacting with the threat alert mechanism&lt;/li>
+&lt;li>Number of Catalyst proposals submitted and accepted for funding in subsequent funding rounds to directly address the most pressing identified threats.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Cardano-Emerging-Threat-Alarm/340926-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Catalyst value onboarding</title><link>/vi/catalyst/fund6/challenges/catalyst-value-onboarding/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/catalyst-value-onboarding/campaign-brief/</guid><description>
+&lt;p>Cách để khuyến khích sự tham gia có ý nghĩa từ phía các thành viên của cộng đồng cho Dự án Catalyst trong hai quỹ đầu tư tiếp theo?&lt;/p>
+&lt;p>Fund Size: &lt;strong>$75,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26106">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26106/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>The growth of Cardano depends on meaningful participation from proposers, advisors, and voters.&lt;/p>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>There&amp;rsquo;s a strong funnel to motivate, inform and direct new participants towards providing a contribution that improves Catalyst&amp;rsquo;s ROI.&lt;/p>
+&lt;h2 id="key-metric-to-measure">Key metric to measure&lt;/h2>
+&lt;p>To assess ROI of this challenge we will ask ourselves:&lt;/p>
+&lt;p>Did we manage to increase meaningful participation from proposers, advisors, and voters?&lt;/p>
+&lt;p>Out of total number of new participants:&lt;/p>
+&lt;p>What % active community advisers?&lt;/p>
+&lt;p>What % watch townhalls?&lt;/p>
+&lt;p>What % vote?&lt;/p>
+&lt;p>What % proposes?&lt;/p>
+&lt;p>What % becomes a referrer?&lt;/p>
+&lt;h2 id="guiding-questions">Guiding questions&lt;/h2>
+&lt;ul>
+&lt;li>How can we increase meaningful participation from proposers, advisors, and voters?&lt;/li>
+&lt;li>How do new people learn about Catalyst?&lt;/li>
+&lt;li>How can we provide a central source of constantly updated information in different formats(text, video, p2p)?&lt;/li>
+&lt;/ul>
+&lt;h2 id="potential-directions">Potential directions&lt;/h2>
+&lt;ul>
+&lt;li>Education and onboarding through timely YouTube content&lt;/li>
+&lt;li>Better user experience through hardware wallet support, Daedalus/yoroi support ect.&lt;/li>
+&lt;li>Reddit presence offering reliable information.&lt;/li>
+&lt;li>Mentoring programs matching veteran Catalysts and new Catalysts.&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25944">Fund5: Catalyst value onboarding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25872">Fund4: Catalyst value onboarding&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Cải thiện và phát triển khả năng kiểm toán</title><link>/vi/catalyst/fund6/challenges/improve-auditability/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/improve-auditability/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để quá trình kiểm tra các đề xuất được tài trợ hiệu quả, phân bổ và minh bạch?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$100,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26119">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26119/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>When Fund7 happens we will be close to 100 funded proposals. It is extremely important that these proposals are evaluated/audited to see if they are delivering and if the ROI is being in line with what has been established initialy.&lt;/p>
+&lt;p>Currently, IOG is in charge of monitoring the development of these funded proposals, but when there are hundreds of funded proposals this will be an overwhelming work for IOG.&lt;/p>
+&lt;p>The Auditability challenge aims to ensure transparency in the use of Cardano&amp;rsquo;s treasury resources, which will allow the Cardano community to have more information on the development of funded proposals through a checks and balances system.&lt;/p>
+&lt;p>Some directions that this challenge can take:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Podcasts with teams from funded proposals.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Smart contract audits.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Platforms / Websites that perform:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reporting on metrics, spending of financial resources.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Metrics on the development of Dapps (txs, volume, unique wallets, etc …)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Metrics on Number of onboarded developers, number of commits in funded proposal repositories.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Social media engagement indicators metrics.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>It&amp;rsquo;s important that the funded proposals are evaluated to see if they are delivering what was established in their mission..&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Several projects evaluating funded proposals, providing reports, articles and metrics on the development and implementation of the projects.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;h3 id="number-of-funded-proposals-audited">Number of funded proposals audited&lt;/h3>
+&lt;p>Considering that the idea is to audit and report on the development of proposals in different challenges, it is important that success metrics are thought out in relation to each challenge.&lt;/p>
+&lt;h3 id="number-of-reports-articles-and-videospodcasts-on">Number of reports, articles and videos/podcasts on:&lt;/h3>
+&lt;ul>
+&lt;li>Performance&lt;/li>
+&lt;li>Achievements&lt;/li>
+&lt;li>Financials&lt;/li>
+&lt;li>Number of onboarded developers.&lt;/li>
+&lt;li>Number of commits in funded proposal repositories (Github)&lt;/li>
+&lt;li>Indicators of: transactions, volume and unique wallets interacting with dapps.&lt;/li>
+&lt;li>Number of smart contracts audited.&lt;/li>
+&lt;li>Social media engagement indicators.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/25946/stage/unspecified">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: DApps &amp; Integrations</title><link>/vi/catalyst/fund6/challenges/dapps-integrations/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/dapps-integrations/campaign-brief/</guid><description>
+&lt;p>What applications will provide the most value for end users in 2021?&lt;/p>
+&lt;p>Fund Size: &lt;strong>$250,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26103">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26103/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="tóm-tắt-chiến-dịch">Tóm tắt chiến dịch&lt;/h2>
+&lt;p>Quality Dapps and integrations will increase utility &amp;amp; adoption of Cardano.&lt;/p>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>Các ứng dụng mới và khả thi được xây dựng hàng đầu của Cardano thu hút nhiều người dùng. Integrations manage to pull in more adoption.&lt;/p>
+&lt;h2 id="key-metric-to-measure">Key metric to measure&lt;/h2>
+&lt;p>To assess the challenge we will be asking ourselves: Did our efforts manage to attract users to the platform? Did our efforts result in new, viable applications built on top of Cardano?&lt;/p>
+&lt;p>Let an &amp;ldquo;application output&amp;rdquo; and an &amp;ldquo;application transaction&amp;rdquo; be an outputs and transactions that use the applications' script addresses; and an &amp;ldquo;application token&amp;rdquo; be a token that&amp;rsquo;s issued by the application.&lt;/p>
+&lt;h2 id="usage-of-applications-developed-during-the-challenge">Usage of applications developed during the challenge&lt;/h2>
+&lt;ul>
+&lt;li>Number/growth of application output&lt;/li>
+&lt;li>Number/growth of application transactions&lt;/li>
+&lt;li>Total volume of Ada involved in application transactions&lt;/li>
+&lt;li>Total/growth of resource usage by applications&lt;/li>
+&lt;li>Number/growth of distinct addresses mentioned in application transactions&lt;/li>
+&lt;li>If the application uses tokens:&lt;/li>
+&lt;li>Number/growth of application tokens&lt;/li>
+&lt;li>Number/growth of distinct addresses holding application tokens&lt;/li>
+&lt;/ul>
+&lt;h2 id="viability-of-applications-developed-during-the-challenge">Viability of applications developed during the challenge&lt;/h2>
+&lt;ul>
+&lt;li>How many of the applications are still being developed at the end of 2021?&lt;/li>
+&lt;li>How many of the applications made a profit for their creators?&lt;/li>
+&lt;li>How many of the teams which built the applications grew during 2021?&lt;/li>
+&lt;li>How many of the teams which built the applications built (or plan to build) another application?&lt;/li>
+&lt;/ul>
+&lt;h2 id="guiding-questions">Guiding questions&lt;/h2>
+&lt;p>What are the key applications that underpin the application ecosystem on other platforms?&lt;/p>
+&lt;p>What are the most profitable or most used applications on other ecosystems?&lt;/p>
+&lt;p>What needs do users of Cardano have that could be solved by new applications?&lt;/p>
+&lt;p>What applications deliver the highest amount of value with the least amount of technical sophistication?&lt;/p>
+&lt;h2 id="potential-directions">Potential directions&lt;/h2>
+&lt;ul>
+&lt;li>Swaps, both simple and fancy variants (multi-party etc.)&lt;/li>
+&lt;li>Escrow, both simple and fancy variants&lt;/li>
+&lt;li>Integrations with existing products&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25941">Fund 5 DApps &amp;amp; Integrations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25869">Fund 4 DApps &amp;amp; Integrations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25797">Fund 3 DApps Creation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25652">Fund 2 Challenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25604">Fund 1 Challenge&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Developer ecosystem</title><link>/vi/catalyst/fund6/challenges/developer-ecosystem/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/developer-ecosystem/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để tạo ra trải nghiệm tích cực cho nhà phát triển giúp họ tập trung vào vào việc xây dựng thành công các ứng dụng?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$1,005,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26094">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26094/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Creating an awesome experience that incentives developers, will lead to increased developer adoption, productivity, and creativity.&lt;/p>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>Liveliness. Happy energized developers making money and achieving their goals, mutual help, collaboration, and a shared feeling of success. A feeling of unexpected innovation happening &amp;ldquo;on it&amp;rsquo;s own&amp;rdquo;. A wide variety of resources are provided for developers allowing them to focus on business value they can generate and not on infrastructure&lt;/p>
+&lt;p>Cardano has a thriving ecosystem of infrastructure companies that don&amp;rsquo;t need to be subsidized by grants and are able to scale their businesses by monetizing the services that they provide. They are attracting developers to the ecosystem and educating them on how to build applications.&lt;/p>
+&lt;h2 id="key-metric-to-measure">Key metric to measure&lt;/h2>
+&lt;p>At the end of this challenge, we will be asking ourselves: Did we manage to make it easier for developers to build on top of Cardano?&lt;/p>
+&lt;ul>
+&lt;li>Filling in gaps defined in the exploration stage.&lt;/li>
+&lt;li>Number of developers actively building on top of Cardano&lt;/li>
+&lt;li>Number of repos on Github using the tooling. (Month over month increase)&lt;/li>
+&lt;li>Reduce wait time of unanswered communications with developers to 24 hours.&lt;/li>
+&lt;li>A sense of community and conversations. Having people around to talk with.&lt;/li>
+&lt;/ul>
+&lt;h2 id="guiding-questions">Guiding questions&lt;/h2>
+&lt;ul>
+&lt;li>What are the the tools that we need to prioritize first&lt;/li>
+&lt;li>How do we attract developers from outside of our current community to participate in Catalyst?&lt;/li>
+&lt;li>What do developers want, and how do they get it from the Cardano dev ecosystem?&lt;/li>
+&lt;li>What would make it a developer motivated to grind through the docs and code no matter how hard it is to create an app?&lt;/li>
+&lt;li>What are enterprise dev managers looking for in order to be able to build out enterprise projects - either internal or commercial?&lt;/li>
+&lt;/ul>
+&lt;h2 id="potential-directions">Potential directions&lt;/h2>
+&lt;ul>
+&lt;li>Developer productivity: IDE&amp;rsquo;s, scripts to automate stuff.&lt;/li>
+&lt;li>Knowledge base &amp;amp; Documentation&lt;/li>
+&lt;li>Deployment, testing, and monitoring frameworks&lt;/li>
+&lt;li>Samples, recipes and templates&lt;/li>
+&lt;li>Hackathons&lt;/li>
+&lt;li>DEFI and tokenization&lt;/li>
+&lt;li>Dashboards&lt;/li>
+&lt;li>API&amp;rsquo;s, and oracles.&lt;/li>
+&lt;li>Support structures&lt;/li>
+&lt;li>Incentivization structures&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25939">Fund 5 Developer Ecosystem Challenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25868">Fund 4 Developer Ecosystem Challenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25805">Fund 3 Developer Ecosystem Challenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25652">Fund 2 Challenge&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25604">Fund 1 Challenge&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Hộp công cụ khởi nghiệp Công nghệ sổ cái phân tán</title><link>/vi/catalyst/fund6/challenges/dlt-enterpreneurship/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/dlt-enterpreneurship/campaign-brief/</guid><description>
+&lt;p>How can early stage entrepreneurs develop their skills to execute &amp;amp; communicate great ideas so voters/stakeholders value the project?&lt;/p>
+&lt;p>Fund Size: &lt;strong>$150,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26113">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26113/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Whatever your background, confidently communicating all the important elements of an early stage venture can be overwhelming for inexperienced entrepreneurs.&lt;/p>
+&lt;p>More should be done to help an increasingly diverse group of Project Catalyst entrepreneurs, at different stages of self-development, plus their teams and stakeholders to collaborate and communicate effectively.&lt;/p>
+&lt;p>This is important to Project Catalyst as, over time, the strongest ideas will be those that are the most coherently communicated and which ultimately resonate clearly with voters - particularly Expert evaluators!&lt;/p>
+&lt;p>This challenge seeks to help inexperienced entrepreneurs to learn and apply vital entrepreneurship skills so they can collaborate with teams and stakeholders on meaningful Catalyst projects. This also helps ensure sustainable impact and a positive return on investment and intention is made.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Entrepreneurs strengths are ambition and vision but often lack structure to communicate ideas clearly enough to win voter hearts &amp;amp; minds&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Higher quality of proposal submitted to Catalyst so entrepreneurs become confident presenting project principles, USP, strategy, objectives&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>Number of users, using the tools&lt;/li>
+&lt;li>Difference in score of applicants using the toolbox and those not using the tools.&lt;/li>
+&lt;li>Gaps that are filled in the entrepreneurial skills base of project teams from the start of ideation through project delivery.&lt;/li>
+&lt;li>Sustainability of venture plans beyond the scope of Catalyst development project.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/DLT-Entrepreneurship-Toolbox/341809-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Mở rộng quy mô các trung tâm cộng đồng của Cardano</title><link>/vi/catalyst/fund6/challenges/scaleup-community-hubs/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/scaleup-community-hubs/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để khuyến khích các Trung tâm cộng đồng địa phương thúc đẩy việc áp dụng và nhận thức về Cardano trong 6 tháng tới?&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26118">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26118/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Out of the world&amp;rsquo;s approximately 7.8 billion inhabitants, 6.45 billion do not speak English.&lt;/p>
+&lt;p>Living in the Western world, we forget this fact regularly, and many of us have never even considered it.&lt;/p>
+&lt;p>Let&amp;rsquo;s consider it now and start to build an ecosystem that is truly global, allowing everyone to participate to the best of their ability.&lt;/p>
+&lt;p>When you drive adoption at the ground level, you are doing more than just &amp;lsquo;building cool products&amp;rsquo;, you are empowering people to change their lives in ways they could have never imagined by themselves.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Without users on the ground level, we are building niche products serving mostly technical people with blockchain expertise.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Local Community Hubs across the world where the average person can take part in their own language and with their own cultural understanding&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>How many new Hubs were launched in the next 6 months?&lt;/li>
+&lt;li>How many developers did this community-focused challenge bring into the Cardano ecosystem?&lt;/li>
+&lt;li>How many new users of Cardano were onboarded?&lt;/li>
+&lt;li>What was the total reach of the Hub&amp;rsquo;s initial marketing launch?&lt;/li>
+&lt;li>How many external organizations did this community-focused challenge bring into the Cardano ecosystem?&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25873">Fund4: Local Community Centers&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Scale-UP-Cardano-s-Community-Hubs/352534-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Mở rộng quy mô hệ sinh thái Tài chính phi tập trung của Cardano</title><link>/vi/catalyst/fund6/challenges/scaleup-defi/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/scaleup-defi/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để có thể khuyến khích các nhóm Tài chính phi tập trung xây dựng / triển khai các giải pháp tài chính mở trên Cardano trong 6 tháng tới?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$200,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26109">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26109/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Currently the vast majority of DeFi dapps and currency flows occur on the Ethereum blockchain, however due to congestion and increased transaction fees, the use of DeFi is increasingly elitized, leaving out the people who could most benefit from it. benefit from this, the unbanked.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>It&amp;rsquo;s important b/c Defi dApps provide trustless on-demand access to financial services for global users w/ Total Value Locked ~$25billion&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>A competitive environment for DeFi on Cardano with an emphasis on cross-collaboration &amp;amp; driving composability across protocols.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>How many DeFi protocols were launched on Cardano mainnet within 6 months from this DeFi focused community challenge?&lt;/li>
+&lt;li>How many daily active users are the DeFi protocols funded in this cohort attracting?&lt;/li>
+&lt;li>How much Total Value Locked (TVL) are the funded DeFi protocols able to capture 1 month post launch on Cardano mainnet? (measure again at 3 months, 6 months and 1 year post-implementation to glean complete insights on proposal challenge effectiveness)&lt;/li>
+&lt;li>How many DeFi developers did this community focused challenge bring into the Cardano ecosystem?&lt;/li>
+&lt;li>How many FinTech/DeFi development firms did this community focused challenge bring into the Cardano ecosystem?&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25948">Fund5: Scale-UP Cardano&amp;rsquo;s DeFi Ecosystem&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Scale-UP-Cardano-s-DeFi-Ecosystem/333399-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Những mô hình kinh doanh mã thông báo không thể thay thế</title><link>/vi/catalyst/fund6/challenges/nft-business-models/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/nft-business-models/campaign-brief/</guid><description>
+&lt;p>What non-Art use cases of NFTs can distinguish Cardano as the blockchain of choice for NFT based businesses?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$200,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26115">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26115/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Propose a means or way to drive business use cases on Cardano that have NFT usage as a core component and can act as an onramp to the Cardano ecosystem. This can include any business model based on NFTs. Think about how this is implemented at scale drawing millions of users, who, once onboard, can become customers for dApps, tools, DeFi and other services.&lt;/p>
+&lt;p>This Challenge is about building recurring businesses that incorporate NFTs on the Cardano ecosystem. The more types of NFTs that are circulating on Cardano will increase the utility of Cardano and ADA.&lt;/p>
+&lt;h2 id="what-should-be-proposed">What should be proposed?&lt;/h2>
+&lt;p>Proposals should be framed towards specific use-cases, and the community will know of specific cases where NFTs can be used to solve various problems. Focusing on NFTs in general may be most productive, with a strong focus on business models that rely on NFTs as a core component of most transactions.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>NFTs have the potential to create businesses with recurring NFT use requirements which increase utilization of the Cardano blockchain.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Many high quality ideas will be proposed that can substantially grow Cardano&amp;rsquo;s user-base, network-utility, network-value &amp;amp; ADA circulation.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>The number of proposals that directly address NFT use cases in a quantifiable manner.&lt;/li>
+&lt;li>The quality of proposals measured by community interest and engagement.&lt;/li>
+&lt;li>Results of any Fund7 funded projects significantly impacting NFT utility on the Cardano blockchain.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/NFT-Business-models/352815-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Atala-PRISM-DID-Mass-Scale-Adoption/334524-48088">Fund4 Challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Phát triển Châu Phi, Phát triển Cardano</title><link>/vi/catalyst/fund6/challenges/grow-africa/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/grow-africa/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để ươm mầm và phát triển Cardano ở Châu Phi?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$200,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26108">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26108/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;h3 id="châu-phi-là-một-mảnh-đất-màu-mỡ-trong-việc-áp-dụng-cardano">Châu Phi là một mảnh đất màu mỡ trong việc áp dụng Cardano.&lt;/h3>
+&lt;p>Có sự tài trợ tập trung vào Châu Phi là một viễn cảnh mà đôi bên cùng có lợi. Châu Phi có lợi vì có được sự hỗ trợ. Dự án thương mại đã được xây dựng ở Châu Phi sẽ có lợi vì họ nhận được những tín hiệu ủng hộ từ cộng đồng. Những người nắm giữ Cardano sẽ có lợi khi có một môi trường khuyến khích họ được áp dụng ở mọi nơi.&lt;/p>
+&lt;p>Tập trung vào Châu Phi là một chiến lược đã được đề xuất và được phát triển rộng rãi bởi IOG và Charles Hoskinson&lt;/p>
+&lt;p>ROI sẽ khá cao bởi vì những dự án tài trợ cộng đồng tốt hơn nên được vận hành trên nền kinh tế trẻ và đang phát triển.&lt;/p>
+&lt;h2 id="đây-là-gì">Đây là gì:&lt;/h2>
+&lt;p>Một lời kêu gọi để kích hoạt khả năng của cộng đồng Cardano để nhận diện, nhìn thấy rủi ro và trao thưởng cho cơ hội này để làm cho thế giới trở thành một nơi tốt đẹp hơn.&lt;/p>
+&lt;h2 id="dự-án-này-không-phải-là">Dự án này không phải là:&lt;/h2>
+&lt;p>Dự án này không cần sự làm việc tích cực của người đề xuất, nó là một tầm nhìn cần những phiếu bầu để trở thành một thành tựu. Nếu thành công thì cả cộng đồng Cardano sẽ nhận được lợi ích từ nó. Đây là một lời kêu gọi để dập tắt định kiến và mở rộng tầm nhìn, trái tim và khối óc với những người tốt nhưng thiếu những lợi ích về môi trường mà nhiều người trong chúng ta sinh ra. Giving them an opportunity to show that circumstances are not something they need charity to rise above and succeed. All that is required is the equal opportunity to succeed or fail that many of the rest of us enjoy, but with their hinderances and hurdles lessened and their choices remaining in their own hands.&lt;/p>
+&lt;h2 id="regardless-of-whether-it-succeeds-or-fails">Regardless of whether it succeeds or fails:&lt;/h2>
+&lt;p>I have had my eyes opened and my mind changed about the potential of Africa. From Africa&amp;rsquo;s bankers in the west, ex-pats with vision and heart, youth with passions, documentaries that challenged my assumptions and Cardano community members with so much to give.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Cardano shines when adoption is global. Africa currently has young entrepreneurs, great growth potential and a government contract imminent.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;ul>
+&lt;li>Cardano is considered the best public block-chain operating in Africa&lt;/li>
+&lt;li>Cardano projects in Africa are not isolated but networked and growing&lt;/li>
+&lt;/ul>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>Number of purely African participants&lt;/li>
+&lt;li>Number of Outside African participants with a significant partnership with African residents&lt;/li>
+&lt;li>Feedback on progress from successful proposals regardless of failure or success&lt;/li>
+&lt;li>Novelty and appropriateness of solutions (hard to quantify, easy to see)&lt;/li>
+&lt;li>Number of African Fund5 proposals that do not need further funding to keep operating&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25947">Fund 5: Grow Africa, Grow Cardano&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Grow-Africa-Grow-Cardano/333079-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Quan hệ đối tác cho việc phát triển toàn cầu</title><link>/vi/catalyst/fund6/challenges/partnerships-for-adoption/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/partnerships-for-adoption/campaign-brief/</guid><description>
+&lt;p>How can Cardano enter in global partnerships with United Nations Development Programme and World Bank Group, to leverage mass adoption?&lt;/p>
+&lt;p>Fund Size: &lt;strong>$30,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26114">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26114/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Partnership protocols aim to support nation building and support sustainable development goals by providing blockchain solutions to local governments and populations. Cardano´s work would be part of wider development projects undertaking. Proposers to provide a partnership framework model for each of the international bodies in question for Cardano Foundation further implementation.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Collaboration with International bodies working in the developing world will accelerate mass adoption for Cardano´s blockchain solutions.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Establishment of Local Community Centers in 130 countries backed by Cardano Foundation working in synergy with international bodies&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>10 proposals put forward for voting&lt;/li>
+&lt;li>Partnerships formalized with in 3 months by Cardano Foundation&lt;/li>
+&lt;li>Local Community Centers established with in 6 months&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Partnerships-for-Global-Adoption/340504-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Rủi ro: Khi tất cả đang bị gặp trắc trở</title><link>/vi/catalyst/fund6/challenges/disaster/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/disaster/campaign-brief/</guid><description>
+&lt;p>How can we help SPOs tackle risks &amp;amp; plan, develop and participate in disaster recovery tests in a safe hiccup-free and decentralized manner?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$150,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26117">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26117/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Disaster recovery (DR) is an area of security planning that aims to protect an organization from the effects of significant negative events.&lt;/p>
+&lt;p>Having a disaster recovery strategy in place enables an organization to maintain or quickly resume mission-critical functions following a disruption.&lt;/p>
+&lt;p>Cardano as a proposed financial operating system for the world must have several layers of built in redundancies even for events that may seem remote or very unlikely now.&lt;/p>
+&lt;p>Although a testnet exists, real-world conditions can never be fully replicated. Maybe proposers can develop a way of incentivizing further SPO participation in the Cardano testnet and more simulations.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>A system that aspires to become a global financial operating system, must be stress tested. Running nodes should be prepared for disaster.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Likely points of failure identified. Disaster communication channels set up. Recovery procedures identified. Testing procedures developed.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>has a methodology for decentralized stress testing of the main network been developed - by and for stakepool operators?&lt;/li>
+&lt;li>are participating stakepools being rewarded for taking part in mainnet disaster recovery tests?&lt;/li>
+&lt;li>are there enough incentives in place for participating in the Cardano testnet?&lt;/li>
+&lt;li>are stakepool operators able to conduct limited network stress testing (overload, disconnection, bad actor, DDoS … scenarios) and are they rewarded for participating in these tests (instead of being punished by losing slots)?&lt;/li>
+&lt;li>have new guidelines, recommendations and emergency communication channels been established for stakepool operators who wish to take part in these emergency preparations?&lt;/li>
+&lt;li>has a a dedicated risk-assessment and risk-management team been set up?&lt;/li>
+&lt;li>have protocols been developed for recovering from an emergency situation that could take most of the main network offline?&lt;/li>
+&lt;li>have proposals been developed for building in different kinds of redundancies?&lt;/li>
+&lt;li>have new benchmarks been developed to measure whether the Cardano stake pool network is safer, more stable, more resilient and more decentralized?&lt;/li>
+&lt;li>have wider screening of risk sources been performed: CyberSecurity, political and regulatory risks, internet-related risks etc.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Disaster-When-all-is-at-stake/351012-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Thiết lập thử thách trong Quỹ đầu tư số 7</title><link>/vi/catalyst/fund6/challenges/fund7-challenge-setting/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/fund7-challenge-setting/campaign-brief/</guid><description>
+&lt;p>Những thử thách nào mà cộng đồng nên ưu tiên giải quyết trong Quỹ đầu tư số 7?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$5,400,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26120">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26120/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Community defined challenges are critical for Cardano community self-governance, and generate a unique way to achieve Cardano&amp;rsquo;s mission.&lt;/p>
+&lt;p>Challenge setting is different from other challenges as it&amp;rsquo;s about proposing new challenges, whether regular challenges are about proposing initiatives to address challenges.&lt;/p>
+&lt;p>Once a proposal is accepted by the community, the proposing team has an opportunity to receive a &amp;ldquo;Challenge team&amp;rdquo; incentive of $2,500 worth of ada, if the following conditions are met:&lt;/p>
+&lt;ul>
+&lt;li>The challenge team presents the challenge to the community at the start of the following fund.&lt;/li>
+&lt;li>The challenge team facilitates a challenge-focused breakout session in one of the after townhalls.&lt;/li>
+&lt;li>The challenge team leads a challenge retrospective session during the next fund&amp;rsquo;s &amp;ldquo;retrospective week&amp;rdquo;.&lt;/li>
+&lt;li>The challenge team facilitates a session with the proposing teams that received funding for the challenge.&lt;/li>
+&lt;li>The challenge team tracks the key metrics as reported by funded proposals, 3 months after receiving funding and presents their reflection on whether the Challenge is getting addressed and highlight teams that are making significant headway in their approach.&lt;/li>
+&lt;/ul>
+&lt;p>These activities might seem complicated, but you will receive guidelines, training and support from the Catalyst team and community. All you need is a willingness to represent the challenge in a fair and balanced way and a desire to participate. Once the conditions are met, your team will be eligible to receive the reward.&lt;/p>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>The community votes to include important and engaging challenges that inspire impactful and original proposals.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key metrics to measure&lt;/h2>
+&lt;p>To assess ROI of this challenge we will ask ourselves:&lt;/p>
+&lt;ul>
+&lt;li>How well did the selected challenges perform in terms of proposal quality and community engagement?&lt;/li>
+&lt;li>What is the average Community Advisor score for the top 10% proposed Challenges?&lt;/li>
+&lt;li>What is the average Community Advisor score for the top 10% proposals generated to address the challenge?&lt;/li>
+&lt;li>How much voter engagement did the challenge generate?&lt;/li>
+&lt;li>How many proposals in the challenge were approved by the community, compared to the overall budget of the challenge? (Challenge overage)&lt;/li>
+&lt;/ul>
+&lt;h2 id="guiding-questions">Guiding questions&lt;/h2>
+&lt;ul>
+&lt;li>What challenges will engage the highest number of voters?&lt;/li>
+&lt;li>Which challenges, if addressed, will provide a springboard for Cardano adoption?&lt;/li>
+&lt;li>Which challenges, if addressed, will advance Cardano&amp;rsquo;s mission?&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25946">Fund 5: Fund6 challenge setting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25874">Fund 4: Fund5 challenge setting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25800">Fund 3: F3: Community choice&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Thử thách siêu dữ liệu</title><link>/vi/catalyst/fund6/challenges/metadata-challenge/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/metadata-challenge/campaign-brief/</guid><description>
+&lt;p>Làm cách nào chúng ta có thể sử dụng giao dịch siêu dữ liệu để giải quyết các vấn đề trong thế giới thực?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$100,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26107">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26107/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>With transaction metadata, Cardano can be utilized as a network to store small proofs of events or documents. This utility has been used in the past to implement product anti-counterfeit solutions as well as traceability solutions. Smart contracts are not necessary to take advantage of this functionality.&lt;/p>
+&lt;p>This challenge is for you if you have problems that involve:&lt;/p>
+&lt;ul>
+&lt;li>Demonstrate to external parties that a specific document has not been tampered with.&lt;/li>
+&lt;li>Demonstrate to external parties that a specific event took place.&lt;/li>
+&lt;li>Demonstrate to external parties that a document existed at a specific date/time.&lt;/li>
+&lt;li>Demonstrate any or all of the above without revealing the document or the event&amp;rsquo;s data (because of privacy concerns).&lt;/li>
+&lt;/ul>
+&lt;p>IOHK is pleased to announce that we will support and provide expert advice to the proposal winners. The same team that created the New Balance and Beefchain solutions will be offering these services to the proposal winners for 6 months after the winners are announced:&lt;/p>
+&lt;ul>
+&lt;li>1 hr a week of expert advice from IOHK&amp;rsquo;s solutions architects and technical consultants.&lt;/li>
+&lt;li>Email address for offline queries.&lt;/li>
+&lt;li>Architectural/design/technical reviews.&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>Prototypes are built that utilize metadata to solve real life problems. The prototypes are presented to the Catalyst community in any of the town halls.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key metrics to measure&lt;/h2>
+&lt;p>At the end of this challenge, we will be asking ourselves:&lt;/p>
+&lt;ul>
+&lt;li>Potential amount of users that can be brought onto Cardano.&lt;/li>
+&lt;li>Community feedback (positive/negative) about the prototypes after presentation.&lt;/li>
+&lt;li>Followup Catalyst proposals.&lt;/li>
+&lt;/ul>
+&lt;h2 id="guiding-questions">Guiding questions&lt;/h2>
+&lt;ul>
+&lt;li>What is the target audience?&lt;/li>
+&lt;li>Who are the potential users of the platform?&lt;/li>
+&lt;li>What is the problem that metadata is solving?&lt;/li>
+&lt;li>Why does the target audience care about the solution? Why would they install/use the solution?&lt;/li>
+&lt;li>Does the solution need hardware components?&lt;/li>
+&lt;li>What would retain the user on the solution? That is, after installation, why would you keep using it? What value does it bring to the user (continuously)?&lt;/li>
+&lt;/ul>
+&lt;h2 id="potential-directions">Potential directions&lt;/h2>
+&lt;ul>
+&lt;li>Traceability&lt;/li>
+&lt;li>Product Authentication&lt;/li>
+&lt;li>Auditable decentralized document workflows (i.e. HelloSign solutions or similar).&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25945">Fund 5: Metadata challenge&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Tiếp cận nhà đề xuất</title><link>/vi/catalyst/fund6/challenges/proposer-outreach/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/proposer-outreach/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để khuyến khích các doanh nhân từ bên ngoài hệ sinh thái Cardano gửi đề xuất cho Catalyst trong hai quỹ đầu tư tiếp theo?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$100,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26105">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26105/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Outside proposers will inject vitality and diversity to the community while increasing the overall quality of proposals.&lt;/p>
+&lt;p>Cardano has ambitious plans to reach 1 billion people. To make this goal a reality, we must attract the brightest entrepreneurs from across the globe and encourage them to submit ideas which will have a positive impact on the ecosystem. The best ideas will be funded, providing entrepreneurs with a more democratized route to capital and ensuring that location is not a barrier to entry.&lt;/p>
+&lt;p>We must increase brand awareness of Catalyst amongst the entrepreneur community, via multi platform proposer outreach campaigns. From content creation to media coverage, hackathons and live events - we want the community to submit their ideas that will attract and engage this audience.&lt;/p>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>Bright entrepreneurs, and specialized firms from across the globe learn about Catalyst and submit high impact proposals.&lt;/p>
+&lt;h2 id="key-metric-to-measure">Key metric to measure&lt;/h2>
+&lt;p>To assess ROI of this challenge we will ask ourselves:&lt;/p>
+&lt;p>Did we get proposals from outside our ecosystem?&lt;/p>
+&lt;ul>
+&lt;li>Media coverage&lt;/li>
+&lt;li>Ideas submitted from new members of the community.&lt;/li>
+&lt;li>Community advisor rating of top 10% of &amp;ldquo;outsider&amp;rdquo; proposals&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-challenges">Prior Challenges&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25943">Fund 5: Proposer Outreach&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25871">Fund 4: Proposer Outreach&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Tài chính phi tập trung và Khoản vay vi mô cho Châu Phi</title><link>/vi/catalyst/fund6/challenges/defi-microlending/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/defi-microlending/campaign-brief/</guid><description>
+&lt;p>Giá trị quỹ: &lt;strong>$90,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>How can we enable the creation of micro-lending and Defi dApp solutions that fits the African setting?&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26112">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26112/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Microlending and DeFi dApps targeted specifically to the African context &amp;amp; based on historical cultural norms will accelerate user adoption&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Businesses are confident to submit well-researched proposals that address the African micro-lending and decentralized finance context&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>Submitted proposals well researched, viable and addresses traditional African financial cultural norms and practices&lt;/li>
+&lt;li>3 or more successfully funded micro-lending and Defi dApp launched within the next 3 funding rounds&lt;/li>
+&lt;li>Minimum 50% user adoption in funded proposal&amp;rsquo;s target market within 2 years&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/DeFi-and-Microlending-for-Africa/340138-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Tài nguyên đa ngôn ngữ</title><link>/vi/catalyst/fund6/challenges/multilingual-resources/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/multilingual-resources/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để thúc đẩy những người không nói tiếng Anh học hỏi và phát triển hệ sinh thái Cardano trong vòng 3 đến 6 tháng tới?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$75,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26111">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26111/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>Ngôn ngữ tiếng Anh có thể là rào cản cho nhiều người trên thế giới khi họ muốn tìm hiểu về Cardano và công nghệ blockchain.&lt;/p>
+&lt;p>At least in Spanish there are no resources for people who might want to learn how to code smart contracts with Plutus or Marlowe for example.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Multilingual platforms will allow non-English speakers to learn about Cardano and increase its adoption worldwide.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Increased adoption and community engagement of non-English speakers.&lt;/p>
+&lt;p>Increased amount of resources in a variety of languages.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;p>At the end of this challenge, we will be asking ourselves: Did we manage to make it easier for non-English speakers to build and grow the Cardano community in their local areas?&lt;/p>
+&lt;ul>
+&lt;li>Number of non-English speakers joining Cardano community&lt;/li>
+&lt;li>Number of courses translated to different languages, from programming to stakepool operation and so on.&lt;/li>
+&lt;li>A sense of community and conversations. Having people around to talk with.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Multilingual-resources/341725-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: Đưa ra quyết định phân bổ</title><link>/vi/catalyst/fund6/challenges/distributed-decision/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/distributed-decision/campaign-brief/</guid><description>
+&lt;p>Làm cách nào để giúp cộng đồng Catalyst làm tốt hơn trong việc đưa ra quyết định phân bổ trong hai vòng Catalyst tiếp theo?&lt;/p>
+&lt;p>Giá trị quỹ: &lt;strong>$75,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26104">Campaign page&lt;/a> and &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26104/stage/unspecified">browse ideas&lt;/a>.&lt;/p>
+&lt;h2 id="campaign-brief">Campaign Brief&lt;/h2>
+&lt;p>High-quality and decentralized decision-making, will increase treasury ROI and legitimize decentralized governance.&lt;/p>
+&lt;h2 id="how-success-looks-like">How success looks like&lt;/h2>
+&lt;p>The community is consciously improving decision-making processes while growing a group of committed and collaborative leaders.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>To assess ROI of this challenge we will ask ourselves: Did we get better at distributed decision making?&lt;/li>
+&lt;li>Community confidence: avg rating or % of Catalyst members who approve of overall results of a funding round.&lt;/li>
+&lt;li>Community participation: number of Catalyst participants contributing to improving Catalyst decision making systems&lt;/li>
+&lt;li>Measured overall&lt;/li>
+&lt;li>Impact of individual initiatives&lt;/li>
+&lt;li>Proof of iteration: round over round, is there evidence that &amp;ldquo;pain points&amp;rdquo; are evolving? (Failure would look like seeing the same problems emerging each funding round)&lt;/li>
+&lt;li>Re-election rates: if proposers receive subsequent funding, this can be seen as a sign of success&lt;/li>
+&lt;li>Embracing failure: is the community able to see value in &amp;amp; learn from proposals that did not work out?&lt;/li>
+&lt;/ul>
+&lt;h2 id="guiding-questions">Guiding questions&lt;/h2>
+&lt;p>How do we encourage people to participate in decision making?&lt;/p>
+&lt;p>How do we ensure the group of decision makers is diverse and accessible to newcomers?&lt;/p>
+&lt;p>How can we ensure that the Catalyst process keeps iterating to improve?&lt;/p>
+&lt;p>How will we include the community in decision making?&lt;/p>
+&lt;h2 id="potential-directions">Potential directions&lt;/h2>
+&lt;ul>
+&lt;li>Software that supports decision making or iteration&lt;/li>
+&lt;li>Experiments in social, collaboration, or meeting structures that encourage improved decision making&lt;/li>
+&lt;li>Community advisor training&lt;/li>
+&lt;li>Low effort ways to engage voters in assessing proposals and tapping into existing insights.&lt;/li>
+&lt;/ul>
+&lt;h2 id="prior-campaigns">Prior Campaigns&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25942">Fund 5 Distributed decision making&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/campaign-home/25870">Fund 4 Distributed decision making&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>Catalyst: ỨNG DỤNG QUY MÔ LỚN CỦA Atala PRISM DID</title><link>/vi/catalyst/fund6/challenges/atala-prism-did/campaign-brief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/vi/catalyst/fund6/challenges/atala-prism-did/campaign-brief/</guid><description>
+&lt;p>Điều gì sẽ thúc đẩy việc áp dụng quy mô lớn các ID phi tập trung trên Cardano?&lt;/p>
+&lt;p>Giá trị quỹ:&lt;strong>$250,000 USD paid in Ada&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://cardano.ideascale.com/a/campaign-home/26116">Trang dự án&lt;/a> và &lt;a href="https://cardano.ideascale.com/a/ideas/top/campaign-filter/byids/campaigns/26116/stage/unspecified">duyệt các ý tưởng&lt;/a>.&lt;/p>
+&lt;h2 id="tóm-tắt-dự-án">Tóm tắt dự án&lt;/h2>
+&lt;p>Đề xuất một phương tiện hoặc cách thức để thúc đẩy việc sử dụng DID trên quy mô lớn như một phương tiện hỗ trợ dễ sử dụng cho hệ sinh thái Cardano (Atala PRISM là phù hợp nhất khi phát hành). Điều này bao gồm nhiều phương pháp hỗ trợ người dùng hoặc công ty với ID phi tập trung để xác định được sự tự chủ về kỹ thuật số của họ. Hãy nghĩ về cách điều này được triển khai trên quy mô lớn thu hút hàng triệu người dùng, những người khi đã tham gia, có thể trở thành khách hàng của dApp, công cụ, DeFi và các dịch vụ khác.&lt;/p>
+&lt;p>Chúng ta là cộng đồng về các nhà lãnh đạo tư tưởng và đã đến lúc thể hiện những ý tưởng của chúng ta bằng hành động. Sử dụng công nghệ Nhận dạng Phân quyền (DID) để thiết lập sự hiện diện và quyền sở hữu của thông tin Nhận dạng Cá nhân (PII) thúc đẩy sự phân cấp của các tổ chức; mang lợi ích cho các cá nhân và các tổ chức.&lt;/p>
+&lt;p>This Challenge is about small ways we can incorporate DIDs into the Cardano ecosystem to start the ground swell at the grassroots that demands PII be secured and controlled with DID technologies and standards.&lt;/p>
+&lt;p>It is about &lt;strong>signaling to the world&lt;/strong> that the Cardano community plans mass-adoption of DID that is interchangeable, interoperable (by WW DID standards) and &lt;strong>we care deeply that the origin of our personal DID is tied to our home blockchain—Cardano.&lt;/strong>&lt;/p>
+&lt;p>While we prefer to support Atala PRISM&amp;rsquo;s instantiation of DID, this is more about building ideas and concepts that require DID to draw users to the Cardano platform. And since PRISM is building to the open standards, those are available for anyone to imagine possibilities and offer proposals.&lt;/p>
+&lt;p>It won&amp;rsquo;t be lost on IOHK how the community responses to this Challenge. Should IOHK see a ground swell of great ideas and proposals, that could help them justify expediting timelines for their planned open sourcing of PRISM components.&lt;/p>
+&lt;h2 id="why-is-it-important">Why is it important?&lt;/h2>
+&lt;p>Atala PRISM DID is a gateway to the Cardano blockchain and ecosystem. Building technology and marketecture that on-boards users is crucial.&lt;/p>
+&lt;h2 id="how-does-success-look-like">How does success look like?&lt;/h2>
+&lt;p>Many high quality ideas will be proposed that can substantially grow Cardano&amp;rsquo;s user-base, network-utility, network-value &amp;amp; ADA circulation.&lt;/p>
+&lt;h2 id="key-metrics-to-measure">Key Metrics to measure&lt;/h2>
+&lt;ul>
+&lt;li>The number of proposals that directly address DID use cases in a quantifiable manner.&lt;/li>
+&lt;li>The quality of proposals measured by community interest and engagement.&lt;/li>
+&lt;li>Results of any Fund7 funded projects significantly impacting mass-scale adoption of DID&amp;rsquo;s and their utility on the Cardano blockchain.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://cardano.ideascale.com/a/dtd/Atala-PRISM-DID-Mass-Scale-Adoption/350613-48088">Original challenge setting proposal&lt;/a>&lt;/li>
+&lt;/ol></description></item></channel></rss>
