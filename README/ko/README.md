@@ -74,7 +74,7 @@ $ git pull --recurse-submodules
 
 주목해야할 변경 및 버전에 대해서는 [CHANGELOG.md](CHANGELOG.md)를 참고로 하세요.
 
-## 감사
+## 감사의 말
 
 * [Project Catalyst](https://cardano.ideascale.com/)
 * [Cardano Foundation](https://cardanofoundation.org/)
@@ -83,18 +83,18 @@ $ git pull --recurse-submodules
 * [Docsy](https://www.docsy.dev/)
 
 
-## 공헌하는 방법 ![GitHub](https://img.shields.io/github/contributors/c3eth/c3eth.github.io)
+## 기여하는 방법 ![GitHub](https://img.shields.io/github/contributors/c3eth/c3eth.github.io)
 
 행동규칙과 풀요청을 제출하는 절차에 대해서 자세한 내용은 [CONTRIBUTING.md](https://github.com/c3eth/c3eth.github.io/blob/main/CONTRIBUTING.md)를 참조하세요.
 
-이 프로젝트에 참여한 [공헌자](https://github.com/c3eth/c3eth.github.io/graphs/contributors) 목록도 참조하세요.
+이 프로젝트에 참여한 [기여자](https://github.com/c3eth/c3eth.github.io/graphs/contributors) 목록도 참조하세요.
 
-이러한 훌륭한 공헌자들에게 감사드립니다([그림문자](https://allcontributors.org/docs/en/emoji-key)를 참조):
+이러한 훌륭한 기여자들에게 감사드립니다([그림문자](https://allcontributors.org/docs/en/emoji-key)를 참조):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-이 프로젝트는 [모든 공헌자](https://github.com/all-contributors/all-contributors)의 사양을 따릅니다. 어떤 종류의 공헌도 환영합니다!
+이 프로젝트는 [모든 기여자](https://github.com/all-contributors/all-contributors)의 사양을 따릅니다. 어떤 종류의 기여도 환영합니다!
 
 ## 라이센스 ![GitHub](https://img.shields.io/github/license/c3eth/c3eth.github.io)
 
